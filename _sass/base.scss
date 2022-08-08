@@ -9,7 +9,7 @@ $base-font-size:       12.5px !default;
 $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
-$container-max-width:  600px !default;
+$container-max-width:  900px !default;
 
 /**
  * Global
@@ -53,6 +53,19 @@ footer { margin-bottom: 20px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 
+table, th, td {
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+th,td {
+    padding: 5px 10px 5px 10px;
+    
+}
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /**
  * Form
  */

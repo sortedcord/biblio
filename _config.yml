@@ -1,7 +1,7 @@
 # Example Site settings
-
+url: "https://sortedcord-biblio-4rppprv73xw4-4000.githubpreview.devl"
 #google_analytics: UA-NNNNNNNN-N
-
+baseurl: ""
 #header_pages:
 #  - index.md
 #  - about.md

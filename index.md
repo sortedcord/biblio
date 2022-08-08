@@ -1,9 +1,17 @@
 ---
-title: /
+title: Biblio
 layout: home
 permalink: /
 ---
 
-# Lorem ipsum
+# Biblio
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+BIBLIO DOES NOT OWN THESE MATERIALS , NEITHER CREATED NOR SCANNED . WE COLLECT AND PROVIDE LINKS THAT ARE ALREADY AVAILABLE ON INTERNET. WE DON’T SUPPORT PIRACY. BUT OUR MAIN MOTIVE IS TO HELP ALL POOR JEE ASPIRANTS WHO CANNOT AFFORD THESE BOOKS.
+
+IF U WANT THESE BOOKS YOU CAN BUY LEGALLY FROM PUBLISHERS.
+
+IF ANYTHING WRONG WITH US/ ERRORS/ WRONG LINKS,, WE WILL RESOLVE IT IMMEDIATELY,, IF U BRING IT TO OUR NOTICE THROUGH EMAIL.
+
+OUR EMAIL ADDRESS: biblio.jee.contact@gmail.com
+
+PUBLISHERS AND BOOK COPYRIGHT OWNERS, IF YOU WANT TO APEAL FOR DELETION OF ANY BOOKS LINKS, KINDLY CONTACT US. WE WILL REMOVE THE PARTICULAR LINKS IMMEDIATELY
