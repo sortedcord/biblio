@@ -23,10 +23,12 @@ layout: default
 {%- if site.posts.size > 0 -%}
 <ul>
 	{%- for post in site.posts limit:10 -%}
+	{%- unless post.tags contains 'future' -%}
 	<li>
 		{%- assign date_format = "%Y-%m-%d" -%}
 		[ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 	</li>
+	{%- endunless -%}
 	{%- endfor -%}
 </ul>
 {%- endif -%}
