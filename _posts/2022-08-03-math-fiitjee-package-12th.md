@@ -1,29 +1,11 @@
 ---
 id: 2271
-title: 'Class 12th MATH FIITJEE Package'
+title: 'MATH FIITJEE Package Class 12th '
 date: '2022-08-03T10:33:03+00:00'
 author: sortedcord
 layout: post
 guid: 'http://localhost/wordpress/?p=2271'
-permalink: /2022/08/03/functions-math-fiitjee-package/
-csco_page_load_nextpost:
-    - default
-csco_post_video_location:
-    - 'a:0:{}'
-csco_post_video_url:
-    - ''
-csco_post_video_bg_start_time:
-    - '0'
-csco_post_video_bg_end_time:
-    - '0'
-powerkit_share_buttons_transient_facebook:
-    - '1659930588'
-powerkit_share_buttons_transient_pinterest:
-    - '1659930589'
-nectar_blog_post_view_count:
-    - '11'
-fifu_image_url:
-    - 'https://i.imgur.com/rlss2Nq.png'
+permalink: /2022/08/03/math-fiitjee-package-12th/
 image: 'https://i.imgur.com/rlss2Nq.png'
 categories:
     - 'Class 12'
@@ -48,5 +30,3 @@ tags:
 | 3 | Application of Derivatives | Download Link |
 | 4 | Indefinite Integration | Download Link |
 | 5 | Definite Integration | Download Link |
-
-10<a class="wp-block-button__link">DOWNLOAD PDF</a>

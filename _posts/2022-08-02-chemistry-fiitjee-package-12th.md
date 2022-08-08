@@ -1,17 +1,10 @@
 ---
 id: 25
-title: 'Chemistry Class 12th &#8211; FIITJEE Package'
+title: 'Chemistry FIITJEE Package Class 12th'
 date: '2022-08-02T10:04:56+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=25'
-permalink: /2022/08/02/chemistry-in-everyday-life-fiitjee-package/
-powerkit_share_buttons_transient_facebook:
-    - '1659930082'
-powerkit_share_buttons_transient_pinterest:
-    - '1659930083'
-nectar_blog_post_view_count:
-    - '2'
+permalink: /2022/08/02/chemistry-fiitjee-package-11th/
 image: /wp-content/uploads/2022/08/FIITJEE-Chemistry-In-Everyday-Life-RAW-300x392.jpg
 categories:
     - 'Class 12'
