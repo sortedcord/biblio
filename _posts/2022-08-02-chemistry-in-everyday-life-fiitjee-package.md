@@ -20,6 +20,7 @@ categories:
 tags:
     - Chemistry
     - 'Coaching Material'
+    - doing
 ---
 
 If you are studying chemistry then you must have wondered about the importance of chemistry in everyday life. Chemistry is the branch of science which deals with the investigation of the properties and changes of matter. From the way how our body exchanges oxygen to how our universe was created, all have a side of chemistry associated with it.

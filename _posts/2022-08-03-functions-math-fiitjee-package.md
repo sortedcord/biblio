@@ -33,6 +33,7 @@ tags:
     - 'Coaching Material'
     - JEE
     - Mathematics
+    - doing
 ---
 
  Students have already learned about domain, codomain and range in class 11 along with the various types of specific real-valued functions and the respective graphs. In class 12 Maths Chapter 1, students will learn about different types of relations and functions, the composition of functions, etc., in detail.
