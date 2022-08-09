@@ -19,14 +19,14 @@ tags:
     - doing
 ---
 
-| S. No. | Title | Link |
-|---|---|---|
-|  | **PHASE 1** |  |
-| 1 | Mole Concept, Balancing of Redox Reactions and Stoichiometry | Download |
-| 2 | Gaseous State | Download |
-| 3 | Atomic Structure | Download |
-| 4 | Periodic Properties | Download |
-|  |  |  |
-|  | **PHASE 2** |  |
-| 1 | Chemical Bonding | [Download](https://drive.google.com/uc?export=download&id=11i7ZtsaHDVkCo7AzwC9mnU1ynOdaMlvx) |
+# Phase 1
+
+- [Mole Concept, Balancing of Redox Reactions and Stoichiometry](https://drive.google.com/uc?export=download&id=13qhNXsLch6JG5W629FmPXmPB3uZIZrmW)
+- [Gaseous State]()
+- [Atomic Structure]()
+- [Periodic Properties]()
+
+# Phase 2
+
+- [Chemical Bonding](https://drive.google.com/uc?export=download&id=11i7ZtsaHDVkCo7AzwC9mnU1ynOdaMlvx)
 

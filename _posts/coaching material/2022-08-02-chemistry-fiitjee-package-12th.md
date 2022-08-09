@@ -20,24 +20,20 @@ If you are studying chemistry then you must have wondered about the importance o
 
 ## Phase 4
 
-| 1 | Alkyl and Aryl Halides | [Download Link](https://drive.google.com/uc?export=download&id=1NJ3WJvEafhfX8YkSeiLi1dOnyUMI5r_C) |
-|---|---|---|
-| 2 | Alcohol Ether Phenol | Download Link |
-| 3 | Aldehyde Ketones | Download Link |
-| 4 | Carboxylic Acids and Its Derivatives | Download Link |
-| 5 | Amines | Download Link |
-| 6 | Biomolecules and Polymers | Download Link |
+- [Alkyl and Aryl Halides](https://drive.google.com/uc?export=download&id=1NJ3WJvEafhfX8YkSeiLi1dOnyUMI5r_C)
+- [Alcohol Ether Phenol](#) 
+- [Aldehyde Ketones](#)
+- [Carboxylic Acids and Its Derivatives](#)
+- [Amines](#)
+- [Biomolecules and Polymers](#)
 
 ## Phase 5
 
-| 1 | Chemistry in Everyday Life | [Download Link](https://drive.google.com/uc?export=download&id=1-enc9ffy5Ouz8tjGrY5ZV1daaSx6rIGK) |
-|---|---|---|
-| 2 | Transisiton Elements | Download Link |
-| 3 | Ores and Metallurgy | Download Link |
-| 4 | Electrochemistry | Download Link |
-| 5 | Qualitative Analysis | Download Link |
-| 6 | p block (15-18) | Download Link |
-| 7 | Solid State | Download Link |
-| 8 | Liquid Solution and Surface Chemistry | Download Link |
-
-5</div>
+- [Chemistry in Everyday Life](https://drive.google.com/uc?export=download&id=1-enc9ffy5Ouz8tjGrY5ZV1daaSx6rIGK)
+- [Transisiton Elements](#)
+- [Ores and Metallurgy](#)
+- [Electrochemistry](#)
+- [Qualitative Analysis](#)
+- [p block (15-18)](#)
+- [Solid State](#)
+- [Liquid Solution and Surface Chemistry](#)
