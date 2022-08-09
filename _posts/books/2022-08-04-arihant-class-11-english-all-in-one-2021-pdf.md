@@ -1,20 +1,10 @@
 ---
-id: 2378
+id: 2372
 title: 'Arihant Class 11 English All In One 2021 PDF'
 date: '2022-08-04T08:23:37+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=2378'
 permalink: /2022/08/04/arihant-class-11-english-all-in-one-2021-pdf/
-nectar_blog_post_view_count:
-    - '8'
-powerkit_share_buttons_transient_facebook:
-    - '1659930534'
-powerkit_share_buttons_transient_pinterest:
-    - '1659930535'
-fifu_image_url:
-    - 'https://images-na.ssl-images-amazon.com/images/I/61e7GwZ6TjS.jpg'
-image: 'https://images-na.ssl-images-amazon.com/images/I/61e7GwZ6TjS.jpg'
 categories:
     - CBSE
     - 'Class 11'
