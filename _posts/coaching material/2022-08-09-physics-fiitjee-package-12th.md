@@ -1,7 +1,7 @@
 ---
-id: 1285
-title: 'Physics FIITJEE Package Class 12th '
-date: '2022-08-09T17:09:32+00:00'
+id: 9785
+title: 'Physics FIITJEE Package Class 12th'
+date: '2022-08-09 21:40:35 +0530'
 author: sortedcord
 layout: post
 permalink: /2022/08/09/Physics-fiitjee-package-12th/
