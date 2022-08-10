@@ -4,7 +4,7 @@ title: 'Arihant How to crack the test of Reasoning'
 date: '2022-08-10 17:14:35 +0530'
 author: sortedcord
 layout: post
-permalink: /2022/08/08/arihant-how-to-crack-reasoning/
+permalink: /2022/08/10/arihant-how-to-crack-reasoning/
 image: 'https://cdn.arihantbooks.com/assets/ProductImage/9789313166757.jpg'
 categories:
     - 'misc'
