@@ -1,0 +1,37 @@
+---
+id: 2459
+title: 'Arihant How to crack the test of Reasoning'
+date: '2022-08-10 17:14:35 +0530'
+author: sortedcord
+layout: post
+permalink: /2022/08/08/arihant-how-to-crack-reasoning/
+image: 'https://cdn.arihantbooks.com/assets/ProductImage/9789313166757.jpg'
+categories:
+    - 'misc'
+tags:
+    - Books
+    - 'logical reasoning'
+    - doing
+---
+
+Reasoning enhances the logical thinking skills. It determines one’s aptitude which is why many competitive examinations ask questions from it. Be it, banking, SSC, railway, IAS/PCS, or any other government recruitment exams, candidates have to score better in Reasoning Test which is a hard nut to crack for many.
+
+How to Crack Test of Reasoning is a perfect study resource to learn the problem solving skills of reasoning to make a proper preparation for the competitive examinations. It has been revised carefully according to the latest examination pattern and is divided into key chapters of Verbal Reasoning, Analytical Reasoning, and Non-Verbal reasoning. It facilitates a complete coverage of the theory followed by exercises graded into base level and expert level for self-evaluation. Each chapter covers the latest exam questions. Also, it carries more than 2500 objective questions as a whole to boost the preparation level. Written in an easy to read manner and incorporated with complete study material, it is an amazing book to climb the ladder of success in your forthcoming competitive exams.
+
+# Table Of Contents
+
+- [Introduction](https://drive.google.com/uc?export=download&id=141yr6VCh4UnNkPVO-gethhwDtYbFvIwO)
+- Verbal Reasoning
+    - [Analogy](https://drive.google.com/uc?export=download&id=146Lia_N6_xsP20lNne0KQtZabPkclLnU)
+    - [Classification]()
+    - [Alphabet Test]()
+    - [Word Formation]()
+    - [Coding-Decoding]()
+    - [Number Series]()
+    - [Letter Series]()
+    - [Logical Order Of Words]()
+    - [Inserting the Missing Character]()
+    - [Number, Ranking and Time Sequence Test]()
+    - [Blood Relation]()
+    - [Mathematical Operations]()
+    - [Direction Sense Test]()
