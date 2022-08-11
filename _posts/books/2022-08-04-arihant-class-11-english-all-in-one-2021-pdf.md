@@ -28,8 +28,8 @@ tags:
 - [Letter Writing](https://drive.google.com/uc?export=download&id=13attnaTsUrh1sPSZbeHDNKQlVFJbd-aP)
 - [Article](https://drive.google.com/uc?export=download&id=13cKD8B5JQvBomA3V65MwvYK_tUxWh9M5)
 - [Speech](https://drive.google.com/uc?export=download&id=13eKW-eWRSzLM7r08QlDVoLj7PgN_qgc0)
-- [Report]()
-- [Narrative]()
+- [Report](https://drive.google.com/uc?export=download&id=17M93AtoGKyhGl1laRh9WoNbW1v_ZeekH)
+- [Narrative](https://drive.google.com/uc?export=download&id=17WQhVTM3zU69QZzlinlQuq0GrLhp4Di8)
 - [Debate]()
 
 ### Grammar
