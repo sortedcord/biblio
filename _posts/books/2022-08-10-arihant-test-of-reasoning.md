@@ -23,7 +23,7 @@ How to Crack Test of Reasoning is a perfect study resource to learn the problem 
 - [Introduction](https://drive.google.com/uc?export=download&id=141yr6VCh4UnNkPVO-gethhwDtYbFvIwO)
 - ### Verbal Reasoning
     * [Analogy](https://drive.google.com/uc?export=download&id=146Lia_N6_xsP20lNne0KQtZabPkclLnU)
-    * [Classification]()
+    * [Classification](https://drive.google.com/uc?export=download&id=17KsmLkZ8TDfbfXle59H9AxsxuektnmFg)
     * [Alphabet Test]()
     * [Word Formation]()
     * [Coding-Decoding]()
