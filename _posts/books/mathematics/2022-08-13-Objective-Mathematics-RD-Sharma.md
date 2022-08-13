@@ -29,3 +29,4 @@ tags:
 - [1 - Algebraic Inequalities](https://drive.google.com/uc?export=download&id=19KQz2vy8qfHgXn7XZRkFiBBjnB5ZqfRG)
 - [2 - Logarithms](https://drive.google.com/uc?export=download&id=19Qi0MzlGludeURW2_w9e1lT-h6SErnGa)
 - [3 - Misc Equations and Inequations](https://drive.google.com/uc?export=download&id=19W5jogHtDOeC_bYxFdiN1JPOHtkb4vBk)
+- [4 - Inequalities](https://drive.google.com/uc?export=download&id=19Y7b3Hd3Y2hr7W9YCMA2tkNpko-d_GYK)
