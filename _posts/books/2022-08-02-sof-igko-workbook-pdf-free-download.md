@@ -10,7 +10,7 @@ powerkit_share_buttons_transient_facebook:
     - '1659462370'
 powerkit_share_buttons_transient_pinterest:
     - '1659462370'
-image: /wp-content/uploads/2022/08/International-General-Knowledge-Olympiad-IGKO-Workbook-Class-4-300x413.jpg
+image: https://i.imgur.com/QyIyqTT.jpg
 categories:
     - 'Class 4'
     - 'SOF Workbooks'
@@ -20,7 +20,9 @@ Every year, the Science Olympiad Foundation (SOF) hosts the IGKO (International 
 
 The IGKO test will be held on four occasions in 2021: October 16, 17, and November 13, 14, 2021. Schools must choose an exam date that is convenient for the students. Each date has its own set of questions.The exam will take place during the school day. SOF IGKO is a pen-and-paper test that is objective in nature. This article provides all the information regarding the IGKO 2021-2022.
 
-3[Download Workbook PDF](https://drive.google.com/uc?export=download&id=1-NRlAv7LN01x26m1dO93ApAujYaeytNg)</div>[View On Amazon](https://www.amazon.in/International-General-Knowledge-Olympiad-Workbook-ebook/dp/B07W8M5JRB/ref=sr_1_3?crid=3M8625ZAGBU3U&keywords=igko+class+4&qid=1659429022&s=digital-text&sprefix=igko+class+%2Cdigital-text%2C282&sr=1-3)## IGKO 2021-2022 Overview
+[Download Workbook PDF](https://drive.google.com/uc?export=download&id=1-NRlAv7LN01x26m1dO93ApAujYaeytNg)
+
+## IGKO 2021-2022 Overview
 
 | **Full Exam Name** | International General Knowledge Olympiad |
 |---|---|

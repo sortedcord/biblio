@@ -4,13 +4,12 @@ title: 'Microsoft Office Specialist Guide PowerPoint 2016'
 date: '2022-08-02T06:58:00+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=8'
 permalink: /2022/08/02/microsoft-office-specialist-guide-powerpoint-2016/
 powerkit_share_buttons_transient_facebook:
     - '1659462377'
 powerkit_share_buttons_transient_pinterest:
     - '1659462377'
-image: /wp-content/uploads/2022/08/Capture.png
+image: https://i.imgur.com/CyFNkPS.png
 categories:
     - Computers
     - 'Microsoft Office'
@@ -24,4 +23,4 @@ MOS 2016 Study Guide for Microsoft PowerPoint is designed for experienced comput
 
 As a certification candidate, you probably have a lot of experience with the program you want to become certified in. Many of the procedures described in this book will be familiar to you; others might not be. Read through each study section and ensure that you are familiar with the procedures, concepts, and tools discussed. In some cases, images depict the tools you will use to perform procedures related to the skill set. Study the images and ensure that you are familiar with the options available for each tool.
 
-1[Download PDF](https://drive.google.com/uc?export=download&id=1gcickLK4-_IVAztnk74J6BJccM74W78Y)
+[Download PDF](https://drive.google.com/uc?export=download&id=1gcickLK4-_IVAztnk74J6BJccM74W78Y)

@@ -4,13 +4,8 @@ title: 'SOF IEO Class 4 Workbook Free Download PDF'
 date: '2022-08-02T08:26:15+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=12'
 permalink: /2022/08/02/sof-ieo-class-4-workbook-free-download-pdf/
-powerkit_share_buttons_transient_facebook:
-    - '1659462375'
-powerkit_share_buttons_transient_pinterest:
-    - '1659462376'
-image: /wp-content/uploads/2022/08/International-English-Olympiad-Workbook-Class-4-300x413.jpg
+image: https://i.imgur.com/0PTspI9.jpg
 categories:
     - 'Class 4'
     - 'SOF Workbooks'

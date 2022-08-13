@@ -6,11 +6,7 @@ author: sortedcord
 layout: post
 guid: 'http://localhost/wordpress/?p=28'
 permalink: /2022/08/02/international-general-knowledge-olympiad-igko-workbook-class-6-pdf-free-download/
-powerkit_share_buttons_transient_facebook:
-    - '1659460197'
-powerkit_share_buttons_transient_pinterest:
-    - '1659460197'
-image: /wp-content/uploads/2022/08/International-General-Knowledge-Olympiad-IGKO-Workbook-Class-6-300x413.jpg
+image: https://i.imgur.com/NZvgYWh.jpg
 categories:
     - 'Class 6'
     - 'SOF Workbooks'
@@ -25,4 +21,4 @@ c. The Multiple-Choice Question Bank in MTG’s class 6 IGKO Olympiad Workbook i
 d. The Workbook comprises the latest previous year papers to ideate students about the latest IGKO exam pattern.  
 e. The IGKO Olympiad Workbook is equipped with chapter-wise OMR sheets to ensure that the students get well-versed with the idea of filling the OMR sheet.
 
-6[Download Workbook PDF](https://drive.google.com/uc?export=download&id=101VaZtMXGueqmChq3Qyqu-sIGe4uIFzK)</div>[Download Workbook Epub](https://drive.google.com/uc?export=download&id=1-pvsK9U5mhwns3oeBuszMOu5Z6KWdeXQ)</div>[View On Amazon](https://drive.google.com/uc?export=download&id=1-pvsK9U5mhwns3oeBuszMOu5Z6KWdeXQ)
+[Download Workbook PDF](https://drive.google.com/uc?export=download&id=101VaZtMXGueqmChq3Qyqu-sIGe4uIFzK)
