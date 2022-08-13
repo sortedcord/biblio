@@ -27,3 +27,5 @@ tags:
 
 - [0 - Preface](https://drive.google.com/uc?export=download&id=19OezuwW8gaeuT6PCfroLBdMu56DHWPkn)
 - [1 - Algebraic Inequalities](https://drive.google.com/uc?export=download&id=19KQz2vy8qfHgXn7XZRkFiBBjnB5ZqfRG)
+- [2 - Logarithms](https://drive.google.com/uc?export=download&id=19Qi0MzlGludeURW2_w9e1lT-h6SErnGa)
+- [3 - Misc Equations and Inequations](https://drive.google.com/uc?export=download&id=19W5jogHtDOeC_bYxFdiN1JPOHtkb4vBk)
