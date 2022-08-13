@@ -18,7 +18,7 @@ tags:
 
 ### Reading Skills
 - Notemaking and Summarization
-- Reading Comprehension
+- [Reading Comprehension](https://drive.google.com/uc?export=download&id=18oSDdAYPhmN_GKgF6G-cDm7isPhHj2Qs)
 
 ### Writing Skills
 
