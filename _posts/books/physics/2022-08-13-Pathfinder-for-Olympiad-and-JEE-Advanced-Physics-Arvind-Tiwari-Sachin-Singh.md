@@ -1,4 +1,3 @@
-
 ---
 id: 857
 title: 'Pathfinder for Olympiad and JEE Advanced Physics Arvind Tiwari Sachin Singh'
