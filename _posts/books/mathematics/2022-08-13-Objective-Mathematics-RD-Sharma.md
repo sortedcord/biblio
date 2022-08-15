@@ -35,7 +35,7 @@ tags:
 - [7 - Fuctions: 14th August](https://drive.google.com/file/d/19v754SJG0ua-yL41H0EXGEd0VbuEfXo4/view?usp=sharing)
 - [8 - Mathematical Reasoning: 15th August](https://drive.google.com/uc?export=download&id=1AprcqJ2v-fR9wM2cPhyvgRf22hd30pFG)
 - [9 - Complex Numbers: 15th August](https://drive.google.com/uc?export=download&id=1ArcewUEEsM-553ySaRRvWcyQWjnta-z1)
-- [10 - Sequence and Series: 15th August]()
+- [10 - Sequence and Series: 15th August](https://drive.google.com/uc?export=download&id=1AsTGAE7kfSH3Uzl5rcraEbFqjefyVMdu)
 - [11 - Quadratic Expressions and Equations: 16th August]()
 - [12 - Mathematical Induction: 16th August]()
 - [13 - Permutation and Combination: 17th August]()
