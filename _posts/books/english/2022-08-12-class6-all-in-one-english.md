@@ -29,9 +29,9 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 
 # Contents
 
-## Literature
-
 - [0 - Preface](https://drive.google.com/uc?export=download&id=17eOfLzO-6PpLHnK0Od-sZAqsEbkdkbjg)
+
+## Literature
 - [1 - Who Did Patrick's Homework](https://drive.google.com/uc?export=download&id=18VRIBojcHh0P_0Giz_9vOSPWesjEsMMT)
 - [2 - How the Dog Found Himself a New Master](https://drive.google.com/uc?export=download&id=18XlAmHMs7Q6d7dBk-_13gioCMnn7At4f)
 - [3 - Taro's Reward](https://drive.google.com/file/d/18avbVr8U1r6XpIaBV_S74jnHHP8OeQAl/view?usp=sharing)
@@ -40,3 +40,14 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 - [6 - Who I Am](https://drive.google.com/uc?export=download&id=18oBNjdHRZhlgLXtaZRw_WSOs-m9Dmm-g)
 - [7 - Fair Play](https://drive.google.com/uc?export=download&id=18U2NhjPVG1Po-_U3zedi4YoxJ3aNOu7Q)
 - [8 - A Game Of Chance](https://drive.google.com/uc?export=download&id=18UpxDQe68JhAckb6odrNikE9Qp5U7Ye4)
+- [9 - Desert Animals: 14th August](https://drive.google.com/uc?export=download&id=1A44NOhFyPbvu64AjXhpwk2AkJ98F-z6B)
+- [10 - The Banyan Tree: 14th August](https://drive.google.com/file/d/1Afp_8arYXjli4-6XCqWD9TbcvkGrwokK/view?usp=sharing)
+
+## Literature Poems
+- [1 - A House, A Home: 14th August](https://drive.google.com/uc?export=download&id=1AEKr315RNPqKgVoMQYf2YfgBa0MnfwGu)
+- [2 - The Kite: 14th August](https://drive.google.com/uc?export=download&id=1AFHp7Kxu6jzB_8sOl1rzLuCKgfTtxH9j)
+- [3 - The Quarrel: 14th August](https://drive.google.com/uc?export=download&id=1AJbSDOGX5EocAEgldQmM4k1q3NAk4bCZ)
+- [4 - Beauty: 15th August]()
+- [5 - Where do All the Teachers go: 15th August]()
+- [6 - The Wonderful Words: 15th August]()
+- [7 - Vocation: 15th August]()
