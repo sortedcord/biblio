@@ -20,20 +20,25 @@ How to Crack Test of Reasoning is a perfect study resource to learn the problem 
 
 # Table Of Contents
 
-- [Introduction](https://drive.google.com/uc?export=download&id=141yr6VCh4UnNkPVO-gethhwDtYbFvIwO)
-- ### Verbal Reasoning
-    * [Analogy](https://drive.google.com/uc?export=download&id=146Lia_N6_xsP20lNne0KQtZabPkclLnU)
-    * [Classification](https://drive.google.com/uc?export=download&id=17KsmLkZ8TDfbfXle59H9AxsxuektnmFg)
-    * [Alphabet Test](https://drive.google.com/uc?export=download&id=17stenX2nbwd0SfvlK8XqxsA2QNvfCxQ2)
-    * [Word Formation](https://drive.google.com/uc?export=download&id=17v5MYowZEaTC9kxnAD4mgeTSK7jFOBVb)
-    * [Coding-Decoding](https://drive.google.com/uc?export=download&id=18BRB-tAlCieKsfNSJnznnxv15soNW5YJ)
-    * [Number Series](https://drive.google.com/uc?export=download&id=18H_gkGy_bx7u1D7R8OThij-ZLDEGtPsl)
-    * [Letter Series](https://drive.google.com/uc?export=download&id=18M9M4I_WZzmbPAcbfwXYz1fAjrUu56O8)
-    * [Logical Order Of Words](https://drive.google.com/uc?export=download&id=18MJu0584i15xb21HqtbAQg_nEMOLke8-)
-    * [Inserting the Missing Character: 14th August](https://drive.google.com/uc?export=download&id=19vEUTHPTX6RooqLN5b4eXFux0tPwdTMO)
-    * [Number, Ranking and Time Sequence Test: 14th August](https://drive.google.com/uc?export=download&id=19wMwKCR2UxFFmZ7UHpLD0EIop7h9Rm7X)
-    * [Blood Relation: 14th August](https://drive.google.com/uc?export=download&id=19wOSNJ16lsqW1_bQfLQ8CdA3KJEAACbp)
-    * [Mathematical Operations: 14th August](https://drive.google.com/file/d/1A1a9tBsW7DkCcXLILyNVWZ7T0NAElvf-/view?usp=sharing)
-    * [Direction Sense Test: 14th August](https://drive.google.com/uc?export=download&id=1A2bq5WvRYUxuZs7veybdl4x8-aDPqcfj)
-    * [Clock and Calendar: 15h August](https://drive.google.com/uc?export=download&id=1AN2g_tMFeSTGkR2dxQHACe81wTsvMluJ)
-    * [Sitting Arrangement: 15h August](https://drive.google.com/uc?export=download&id=1AVuJ1nEFWip_xSX8h84_Y5z2MCkJ9L30)
+| S.No. | Chapter Title                          | Download Link                                                                                     | File Size |
+|-------|----------------------------------------|---------------------------------------------------------------------------------------------------|-----------|
+| 00    | Introduction                           | [Download Link](https://drive.google.com/uc?id=141yr6VCh4UnNkPVO-gethhwDtYbFvIwO&export=download) | 2.68 MB   |
+| 01    | Analogy                                | [Download Link](https://drive.google.com/uc?id=146Lia_N6_xsP20lNne0KQtZabPkclLnU&export=download) | 9.71 MB   |
+| 02    | Classification                         | [Download Link](https://drive.google.com/uc?id=17KsmLkZ8TDfbfXle59H9AxsxuektnmFg&export=download) | 671.79 KB |
+| 03    | Alphabet Test                          | [Download Link](https://drive.google.com/uc?id=17stenX2nbwd0SfvlK8XqxsA2QNvfCxQ2&export=download) | 583.78 KB |
+| 04    | Word Formation                         | [Download Link](https://drive.google.com/uc?id=17v5MYowZEaTC9kxnAD4mgeTSK7jFOBVb&export=download) | 452.79 KB |
+| 05    | Coding Decoding                        | [Download Link](https://drive.google.com/uc?id=18BRB-tAlCieKsfNSJnznnxv15soNW5YJ&export=download) | 855.62 KB |
+| 06    | Number Series                          | [Download Link](https://drive.google.com/uc?id=18H_gkGy_bx7u1D7R8OThij-ZLDEGtPsl&export=download) | 467.9 KB  |
+| 07    | Letter Series                          | [Download Link](https://drive.google.com/uc?id=18M9M4I_WZzmbPAcbfwXYz1fAjrUu56O8&export=download) | 472.78 KB |
+| 08    | Logical Order Of Words                 | [Download Link](https://drive.google.com/uc?id=18MJu0584i15xb21HqtbAQg_nEMOLke8-&export=download) | 231.45 KB |
+| 09    | Insert The Missing Character           | [Download Link](https://drive.google.com/uc?id=19vEUTHPTX6RooqLN5b4eXFux0tPwdTMO&export=download) | 301.85 KB |
+| 10    | Number, Ranking and Time Sequence Test | [Download Link](https://drive.google.com/uc?id=19wMwKCR2UxFFmZ7UHpLD0EIop7h9Rm7X&export=download) | 1.08 MB   |
+| 11    | Blood Relations                        | [Download Link](https://drive.google.com/uc?id=19wOSNJ16lsqW1_bQfLQ8CdA3KJEAACbp&export=download) | 824.97 KB |
+| 12    | Mathematical Operations                | [Download Link](https://drive.google.com/uc?id=1A1a9tBsW7DkCcXLILyNVWZ7T0NAElvf-&export=download) | 757.64 KB |
+| 13    | Direction Sense Test                   | [Download Link](https://drive.google.com/uc?id=1A2bq5WvRYUxuZs7veybdl4x8-aDPqcfj&export=download) | 759.8 KB  |
+| 14    | Clock And Calendar                     | [Download Link](https://drive.google.com/uc?id=1AN2g_tMFeSTGkR2dxQHACe81wTsvMluJ&export=download) | 457.36 KB |
+| 15    | Sitting Arrangement                    | [Download Link](https://drive.google.com/uc?id=1AVuJ1nEFWip_xSX8h84_Y5z2MCkJ9L30&export=download) | 1.06 MB   |
+| 16    | Puzzles                                | [Download Link](https://drive.google.com/uc?id=1H0shK6-tsSWlnpBbnNOGYB7FS3QabDdd&export=download) | 1 MB      |
+| 17    | Matrix Coding                          | [Download Link](https://drive.google.com/uc?id=1H1HazQsXcmp6jL5cxPeJJ5kC7PBINsVZ&export=download) | 363.43 KB |
+| 18    | Mathematical Reasoning                 | [Download Link](https://drive.google.com/uc?id=1H40OMtmXCSxchTEvbi3q1_2b738FO5m9&export=download) | 197.52 KB |
+| 19    | Logical Venn Diagrams                  | [Download Link](https://drive.google.com/uc?id=1H9ZN_lSJ9Z8N9gh_o50M1H_1lL-GSv0r&export=download) | 613.67 KB |
