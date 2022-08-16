@@ -42,3 +42,4 @@ How to Crack Test of Reasoning is a perfect study resource to learn the problem 
 | 17    | Matrix Coding                          | [Download Link](https://drive.google.com/uc?id=1H1HazQsXcmp6jL5cxPeJJ5kC7PBINsVZ&export=download) | 363.43 KB |
 | 18    | Mathematical Reasoning                 | [Download Link](https://drive.google.com/uc?id=1H40OMtmXCSxchTEvbi3q1_2b738FO5m9&export=download) | 197.52 KB |
 | 19    | Logical Venn Diagrams                  | [Download Link](https://drive.google.com/uc?id=1H9ZN_lSJ9Z8N9gh_o50M1H_1lL-GSv0r&export=download) | 613.67 KB |
+
