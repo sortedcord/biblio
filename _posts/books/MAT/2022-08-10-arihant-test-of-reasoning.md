@@ -20,28 +20,28 @@ How to Crack Test of Reasoning is a perfect study resource to learn the problem 
 
 # Table Of Contents
 
-| S.No. | Chapter Title                | Download Link                      | File Size  | Date Uploaded            
-|-------|------------------------------|------------------------------------|------------|--------------------------|
-| 00    | Introduction                 | [Download Link](shorturl.at/orwY2) | 2.68 MB    | August 10 at 5:25:52 PM  |
-| 01    | Analogy                      | [Download Link](shorturl.at/dstvY) | 9.71 MB    | August 10 at 5:34:01 PM  |
-| 02    | Classification               | [Download Link](shorturl.at/fZ478) | 671.79 KB  | August 11 at 9:24:34 PM  |
-| 03    | Alphabet Test                | [Download Link](shorturl.at/hinsW) | 583.78 KB  | August 12 at 8:45:53 PM  |
-| 04    | Word Formation               | [Download Link](shorturl.at/bhLM4) | 452.79 KB  | August 12 at 9:01:10 PM  |
-| 05    | Coding Decoding              | [Download Link](shorturl.at/dfRY6) | 855.62 KB  | August 13 at 7:53:41 AM  |
-| 06    | Number Series                | [Download Link](shorturl.at/pTZ46) | 467.9 KB   | August 13 at 8:23:00 AM  |
-| 07    | Letter Series                | [Download Link](shorturl.at/ghmRV) | 472.78 KB  | August 13 at 8:23:17 AM  |
-| 08    | Logical Order Of Words       | [Download Link](shorturl.at/grsY1) | 231.45 KB  | August 13 at 8:23:32 AM  |
-| 09    | Insert The Missing Character | [Download Link](shorturl.at/cdKU9) | 301.85 KB  | August 14 at 8:10:26 AM  |
-| 10    | Number, Ranking...           | [Download Link](shorturl.at/CEHLN) | 1.08 MB    | August 14 at 8:12:02 AM  |
-| 11    | Blood Relations              | [Download Link](shorturl.at/fltu1) | 824.97 KB  | August 14 at 7:08:50 PM  |
-| 12    | Mathematical Operations      | [Download Link](shorturl.at/ADIQ7) | 757.64 KB  | August 14 at 7:13:20 PM  |
-| 13    | Direction Sense Test         | [Download Link](shorturl.at/BDQY5) | 759.8 KB   | August 14 at 7:13:37 PM  |
-| 14    | Clock And Calendar           | [Download Link](shorturl.at/CTW09) | 457.36 KB  | August 15 at 12:30:26 PM |
-| 15    | Sitting Arrangement          | [Download Link](shorturl.at/BJKPS) | 1.06 MB    | August 15 at 12:30:45 PM |
-| 16    | Puzzles                      | [Download Link](shorturl.at/ars56) | 1 MB       | August 16 at 1:15:30 PM  |
-| 17    | Matrix Coding                | [Download Link](shorturl.at/acnW8) | 363.43 KB  | August 16 at 1:15:38 PM  |
-| 18    | Mathematical Reasoning       | [Download Link](shorturl.at/FGHY1) | 197.52 KB  | August 16 at 1:15:50 PM  |
-| 19    | Logical Venn Diagrams        | [Download Link](shorturl.at/quy29) | 613.67 KB  | August 16 at 1:16:01 PM  |
-| 20    | Eligibility                  | [Download Link](shorturl.at/ahNOR) | 722.55 KB  | August 17 at 9:34:40 AM  |
-| 21    | Syllogism                    | [Download Link](shorturl.at/GSUY9) | 1011.54 KB | August 17 at 9:35:04 AM  |
-| 22    | Statement and Assumptions    | [Download Link](shorturl.at/cmN06) | 697.28 KB  | August 17 at 9:35:19 AM  |
+| S.No. | Chapter Title                | Download Link                              | File Size  | Date Uploaded            |
+|-------|------------------------------|--------------------------------------------|------------|--------------------------|
+| 00    | Introduction                 | [Download Link](https://shorturl.at/orwY2) | 2.68 MB    | August 10 at 5:25:52 PM  |
+| 01    | Analogy                      | [Download Link](https://shorturl.at/dstvY) | 9.71 MB    | August 10 at 5:34:01 PM  |
+| 02    | Classification               | [Download Link](https://shorturl.at/fZ478) | 671.79 KB  | August 11 at 9:24:34 PM  |
+| 03    | Alphabet Test                | [Download Link](https://shorturl.at/hinsW) | 583.78 KB  | August 12 at 8:45:53 PM  |
+| 04    | Word Formation               | [Download Link](https://shorturl.at/bhLM4) | 452.79 KB  | August 12 at 9:01:10 PM  |
+| 05    | Coding Decoding              | [Download Link](https://shorturl.at/dfRY6) | 855.62 KB  | August 13 at 7:53:41 AM  |
+| 06    | Number Series                | [Download Link](https://shorturl.at/pTZ46) | 467.9 KB   | August 13 at 8:23:00 AM  |
+| 07    | Letter Series                | [Download Link](https://shorturl.at/ghmRV) | 472.78 KB  | August 13 at 8:23:17 AM  |
+| 08    | Logical Order Of Words       | [Download Link](https://shorturl.at/grsY1) | 231.45 KB  | August 13 at 8:23:32 AM  |
+| 09    | Insert The Missing Character | [Download Link](https://shorturl.at/cdKU9) | 301.85 KB  | August 14 at 8:10:26 AM  |
+| 10    | Number, Ranking...           | [Download Link](https://shorturl.at/CEHLN) | 1.08 MB    | August 14 at 8:12:02 AM  |
+| 11    | Blood Relations              | [Download Link](https://shorturl.at/fltu1) | 824.97 KB  | August 14 at 7:08:50 PM  |
+| 12    | Mathematical Operations      | [Download Link](https://shorturl.at/ADIQ7) | 757.64 KB  | August 14 at 7:13:20 PM  |
+| 13    | Direction Sense Test         | [Download Link](https://shorturl.at/BDQY5) | 759.8 KB   | August 14 at 7:13:37 PM  |
+| 14    | Clock And Calendar           | [Download Link](https://shorturl.at/CTW09) | 457.36 KB  | August 15 at 12:30:26 PM |
+| 15    | Sitting Arrangement          | [Download Link](https://shorturl.at/BJKPS) | 1.06 MB    | August 15 at 12:30:45 PM |
+| 16    | Puzzles                      | [Download Link](https://shorturl.at/ars56) | 1 MB       | August 16 at 1:15:30 PM  |
+| 17    | Matrix Coding                | [Download Link](https://shorturl.at/acnW8) | 363.43 KB  | August 16 at 1:15:38 PM  |
+| 18    | Mathematical Reasoning       | [Download Link](https://shorturl.at/FGHY1) | 197.52 KB  | August 16 at 1:15:50 PM  |
+| 19    | Logical Venn Diagrams        | [Download Link](https://shorturl.at/quy29) | 613.67 KB  | August 16 at 1:16:01 PM  |
+| 20    | Eligibility                  | [Download Link](https://shorturl.at/ahNOR) | 722.55 KB  | August 17 at 9:34:40 AM  |
+| 21    | Syllogism                    | [Download Link](https://shorturl.at/GSUY9) | 1011.54 KB | August 17 at 9:35:04 AM  |
+| 22    | Statement and Assumptions    | [Download Link](https://shorturl.at/cmN06) | 697.28 KB  | August 17 at 9:35:19 AM  |

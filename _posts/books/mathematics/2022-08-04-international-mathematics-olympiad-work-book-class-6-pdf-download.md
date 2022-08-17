@@ -4,16 +4,7 @@ title: 'International Mathematics Olympiad Work Book -Class 6 PDF Download'
 date: '2022-08-04T17:45:40+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=2427'
 permalink: /2022/08/04/international-mathematics-olympiad-work-book-class-6-pdf-download/
-nectar_blog_post_view_count:
-    - '4'
-powerkit_share_buttons_transient_facebook:
-    - '1659807959'
-powerkit_share_buttons_transient_pinterest:
-    - '1659807960'
-fifu_image_url:
-    - 'https://i.imgur.com/UbpEvHc.png'
 image: 'https://i.imgur.com/UbpEvHc.png'
 categories:
     - 'Class 6'

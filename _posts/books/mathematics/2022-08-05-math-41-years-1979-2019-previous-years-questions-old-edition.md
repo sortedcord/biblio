@@ -4,16 +4,7 @@ title: 'Math 41 Years (1979-2019) Previous Years Questions [OLD EDITION]'
 date: '2022-08-05T07:35:33+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=2438'
 permalink: /2022/08/05/math-41-years-1979-2019-previous-years-questions-old-edition/
-nectar_blog_post_view_count:
-    - '2'
-powerkit_share_buttons_transient_facebook:
-    - '1659688544'
-powerkit_share_buttons_transient_pinterest:
-    - '1659688544'
-fifu_image_url:
-    - 'https://images-na.ssl-images-amazon.com/images/I/81f-1yrwISL.jpg'
 image: 'https://images-na.ssl-images-amazon.com/images/I/81f-1yrwISL.jpg'
 categories:
     - 'Class 11'

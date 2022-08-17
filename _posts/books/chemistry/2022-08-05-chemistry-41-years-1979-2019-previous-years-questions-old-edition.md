@@ -4,16 +4,7 @@ title: 'Chemistry 41 Years (1979-2019) Previous Years Questions [OLD EDITION]'
 date: '2022-08-05T07:24:05+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=2435'
 permalink: /2022/08/05/chemistry-41-years-1979-2019-previous-years-questions-old-edition/
-nectar_blog_post_view_count:
-    - '3'
-powerkit_share_buttons_transient_facebook:
-    - '1659807450'
-powerkit_share_buttons_transient_pinterest:
-    - '1659807451'
-fifu_image_url:
-    - 'https://i.imgur.com/QFpdzj2.png'
 image: 'https://i.imgur.com/QFpdzj2.png'
 categories:
     - 'Class 11'

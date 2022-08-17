@@ -4,26 +4,7 @@ title: 'Play with Graphs for JEE Main and Advanced Amit M Agarwal PDF'
 date: '2022-08-03T09:57:39+00:00'
 author: sortedcord
 layout: post
-guid: 'http://localhost/wordpress/?p=2263'
 permalink: /2022/08/03/play-with-graphs-for-jee-main-and-advanced-amit-m-agarwal-pdf/
-csco_page_load_nextpost:
-    - default
-csco_post_video_location:
-    - 'a:0:{}'
-csco_post_video_url:
-    - ''
-csco_post_video_bg_start_time:
-    - '0'
-csco_post_video_bg_end_time:
-    - '0'
-powerkit_share_buttons_transient_facebook:
-    - '1659694139'
-powerkit_share_buttons_transient_pinterest:
-    - '1659694140'
-nectar_blog_post_view_count:
-    - '0'
-fifu_image_url:
-    - 'https://i.imgur.com/xJnmmlz.png'
 image: 'https://i.imgur.com/xJnmmlz.png'
 categories:
     - 'Class 11'

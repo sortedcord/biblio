@@ -6,14 +6,6 @@ author: sortedcord
 layout: post
 guid: 'http://localhost/wordpress/?p=2381'
 permalink: /2022/08/04/disha-jee-and-neet-revision-handbook-pdf/
-nectar_blog_post_view_count:
-    - '0'
-powerkit_share_buttons_transient_facebook:
-    - '1659605365'
-powerkit_share_buttons_transient_pinterest:
-    - '1659605366'
-fifu_image_url:
-    - 'https://medicalstudyzone.com/wp-content/uploads/2021/06/Disha-Handbook-for-JEE-NEET-2021-PDF-Free-Download.png'
 image: 'https://medicalstudyzone.com/wp-content/uploads/2021/06/Disha-Handbook-for-JEE-NEET-2021-PDF-Free-Download.png'
 categories:
     - 'Class 11'
