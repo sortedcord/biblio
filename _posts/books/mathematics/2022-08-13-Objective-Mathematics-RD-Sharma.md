@@ -24,8 +24,8 @@ tags:
 
 # Volume 1 | Objective Mathematics by RD Sharma
 
-| Sno. | Chapter Title                                           | Download Link                      | File Size |
-|------|---------------------------------------------------------|------------------------------------|-----------|
+| Sno. | Chapter Title                                           | Download Link                              | File Size |
+|------|---------------------------------------------------------|--------------------------------------------|-----------|
 | 0    | Preface                                                 | [Download Link](https://shorturl.at/dGZ26) | 5.15 MB   |
 | 01   | ALGEBRAIC INEQUATIONS                                   | [Download Link](https://shorturl.at/bcgMW) | 2.77 MB   |
 | 02   | Logarithms                                              | [Download Link](https://shorturl.at/bGI01) | 5.16 MB   |
@@ -57,8 +57,8 @@ tags:
 
 # Volume 2 | Objective Mathematics by RD Sharma
 
-| Sno. | Chapter Title                            | Download Link                      | File Size |
-|------|------------------------------------------|------------------------------------|-----------|
+| Sno. | Chapter Title                            | Download Link                              | File Size |
+|------|------------------------------------------|--------------------------------------------|-----------|
 | 28   | MEASURES OF CENTRAL TENDENCY             | [Download Link](https://shorturl.at/bopqT) | 6.54 MB   |
 | 29   | MEASURES OF DISPERSION                   | [Download Link](https://shorturl.at/eiu28) | 5.93 MB   |
 | 30   | MATRICES                                 | [Download Link](https://shorturl.at/bGHT2) | 13.66 MB  |
