@@ -21,4 +21,4 @@ tags:
 
 Based on the syllabus and exam pattern defined by National testing agency (nta). the book comprises of a comprehensive set of question and answers based on current trends in the NEET AIIMS and other medical exams.
 
-[Download PDF](shorturl.at/kns16)
+[Download PDF](https://shorturl.at/kns16)
