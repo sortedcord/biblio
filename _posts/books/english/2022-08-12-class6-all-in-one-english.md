@@ -58,3 +58,16 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 | 06   | The Wonderful Words          | [Download Link](shorturl.at/ABCEG) | 5.67 MB   | August 17 at 11:38:12 AM |
 | 07   | Vocation                     | [Download Link](shorturl.at/mVZ27) | 5.34 MB   | August 17 at 12:01:06 PM |
 | 08   | Whatif                       | [Download Link](shorturl.at/BHQRY) | 5.11 MB   | August 17 at 12:01:19 PM |
+
+## Supplementary
+
+| Sno. | File Name                    | Download Link                      | File Size | Created At               |
+|------|------------------------------|------------------------------------|-----------|--------------------------|
+| 01   | A Tale of Two Birds          | [Download Link](shorturl.at/ilRTZ) | 7.65 MB   | August 17 at 12:32:52 PM |
+| 02   | The Friendly Mongoose        | [Download Link](shorturl.at/cJ479) | 8.16 MB   | August 17 at 12:33:19 PM |
+| 03   | The Shepherd's Treasure      | [Download Link](shorturl.at/K0256) | 10.23 MB  | August 17 at 12:33:50 PM |
+| 04   | The Old-Clock Shop           | [Download Link](shorturl.at/adsTY) | 9.73 MB   | August 17 at 12:34:17 PM |
+| 05   | Tansen                       | [Download Link](shorturl.at/CELYZ) | 9.91 MB   | August 17 at 1:00:06 PM  |
+| 06   | The Monkey and the Crocodile | [Download Link](shorturl.at/biptv) | 9.45 MB   | August 17 at 1:00:38 PM  |
+| 07   | The Wonder Called Sleep      | [Download Link](shorturl.at/gJRX0) | 8.8 MB    | August 17 at 1:01:02 PM  |
+| 08   | A Pact with the Sun          | [Download Link](shorturl.at/kTY03) | 10.28 MB  | August 17 at 1:01:31 PM  |
