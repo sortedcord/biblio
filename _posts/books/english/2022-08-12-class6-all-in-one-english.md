@@ -6,12 +6,12 @@ author: sortedcord
 image: https://universalbooksellers.com/wp-content/uploads/2020/07/06.jpg
 layout: post
 permalink: /2022/08/04/arihant-class-6-english-all-in-one-2022-pdf/
-categories:
+categories:    
     - CBSE
     - 'Class 6'
-tags:
-    - Books
-    - English
+tags:    
+    - Book    
+    - English    
     - doing
 ---
 
@@ -29,25 +29,32 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 
 # Contents
 
-- [0 - Preface](https://drive.google.com/uc?export=download&id=17eOfLzO-6PpLHnK0Od-sZAqsEbkdkbjg)
+- [0 - Preface](shorturl.at/cflo7)
 
-## Literature
-- [1 - Who Did Patrick's Homework](https://drive.google.com/uc?export=download&id=18VRIBojcHh0P_0Giz_9vOSPWesjEsMMT)
-- [2 - How the Dog Found Himself a New Master](https://drive.google.com/uc?export=download&id=18XlAmHMs7Q6d7dBk-_13gioCMnn7At4f)
-- [3 - Taro's Reward](https://drive.google.com/file/d/18avbVr8U1r6XpIaBV_S74jnHHP8OeQAl/view?usp=sharing)
-- [4 - An Indian American In Space: Kalpana Chawla](https://drive.google.com/uc?export=download&id=18gOoSodiwh1ecddrushAqc1XsG_Q3HyD)
-- [5 - A Different Kind Of School](https://drive.google.com/uc?export=download&id=18gz_bjdsCPjeY8svyWKiWxf-SzJp813M)
-- [6 - Who I Am](https://drive.google.com/uc?export=download&id=18oBNjdHRZhlgLXtaZRw_WSOs-m9Dmm-g)
-- [7 - Fair Play](https://drive.google.com/uc?export=download&id=18U2NhjPVG1Po-_U3zedi4YoxJ3aNOu7Q)
-- [8 - A Game Of Chance](https://drive.google.com/uc?export=download&id=18UpxDQe68JhAckb6odrNikE9Qp5U7Ye4)
-- [9 - Desert Animals: 14th August](https://drive.google.com/uc?export=download&id=1A44NOhFyPbvu64AjXhpwk2AkJ98F-z6B)
-- [10 - The Banyan Tree: 14th August](https://drive.google.com/file/d/1Afp_8arYXjli4-6XCqWD9TbcvkGrwokK/view?usp=sharing)
+## Prose
 
-## Literature Poems
-- [1 - A House, A Home: 14th August](https://drive.google.com/uc?export=download&id=1AEKr315RNPqKgVoMQYf2YfgBa0MnfwGu)
-- [2 - The Kite: 14th August](https://drive.google.com/uc?export=download&id=1AFHp7Kxu6jzB_8sOl1rzLuCKgfTtxH9j)
-- [3 - The Quarrel: 14th August](https://drive.google.com/uc?export=download&id=1AJbSDOGX5EocAEgldQmM4k1q3NAk4bCZ)
-- [4 - Beauty: 15th August]()
-- [5 - Where do All the Teachers go: 15th August]()
-- [6 - The Wonderful Words: 15th August]()
-- [7 - Vocation: 15th August]()
+| Sno. | File name                              | Download Link                      | File Size | Created At               |
+|------|----------------------------------------|------------------------------------|-----------|--------------------------|
+| 01   | Who did Patrick's Homework             | [Download Link](shorturl.at/dJMZ2) | 20.5 MB   | August 13 at 9:11:38 AM  |
+| 02   | How the Dog Found Himself a New Master | [Download Link](shorturl.at/dmSTY) | 17.9 MB   | August 13 at 9:12:01 AM  |
+| 03   | Taro's Reward                          | [Download Link](shorturl.at/ciPXZ) | 17.78 MB  | August 13 at 9:12:17 AM  |
+| 04   | An Indian-American Woman in Space      | [Download Link](shorturl.at/AHIP3) | 20.02 MB  | August 13 at 9:12:38 AM  |
+| 05   | A Different Kind of School             | [Download Link](shorturl.at/goQR5) | 19.08 MB  | August 13 at 9:12:58 AM  |
+| 06   | Who I Am                               | [Download Link](shorturl.at/mtw48) | 18.68 MB  | August 13 at 9:13:13 AM  |
+| 07   | Fair Play                              | [Download Link](shorturl.at/chtGU) | 21.7 MB   | August 13 at 9:08:33 AM  |
+| 08   | A Game Of Chance                       | [Download Link](shorturl.at/chm17) | 17.58 MB  | August 13 at 9:09:08 AM  |
+| 09   | Desert Animals                         | [Download Link](shorturl.at/cEGVX) | 17.3 MB   | August 14 at 7:56:09 PM  |
+| 10   | The Banyan Tree                        | [Download Link](shorturl.at/aknO1) | 22.24 MB  | August 15 at 12:33:28 PM |
+
+## Poem
+
+| Sno. | File Name                    | Download Link                      | File Size | Created At               |
+|------|------------------------------|------------------------------------|-----------|--------------------------|
+| 01   | A House, A Home              | [Download Link](shorturl.at/bhV25) | 10.16 MB  | August 15 at 12:05:10 PM |
+| 02   | The Kite                     | [Download Link](shorturl.at/EFRY1) | 9.31 MB   | August 15 at 12:05:33 PM |
+| 03   | The Quarrel                  | [Download Link](shorturl.at/eipR5) | 8.68 MB   | August 15 at 12:05:50 PM |
+| 04   | Beauty                       | [Download Link](shorturl.at/kpSX1) | 5.55 MB   | August 17 at 11:37:01 AM |
+| 05   | Where do All the Teachers Go | [Download Link](shorturl.at/eiER2) | 7.04 MB   | August 17 at 11:37:43 AM |
+| 06   | The Wonderful Words          | [Download Link](shorturl.at/ABCEG) | 5.67 MB   | August 17 at 11:38:12 AM |
+| 07   | Vocation                     | [Download Link](shorturl.at/mVZ27) | 5.34 MB   | August 17 at 12:01:06 PM |
+| 08   | Whatif                       | [Download Link](shorturl.at/BHQRY) | 5.11 MB   | August 17 at 12:01:19 PM |
