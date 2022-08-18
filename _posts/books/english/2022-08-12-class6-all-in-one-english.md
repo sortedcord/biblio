@@ -12,7 +12,6 @@ categories:
 tags:    
     - Book    
     - English    
-    - doing
 ---
 
 Arihant's "All in One" is no new name today. One of the Best-Selling Series that is helping students with their schools and board exams preparation by providing Complete Theory, Practice and Assessment as per new issued pattern for the excellent academic results.
@@ -30,6 +29,8 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 # Contents
 
 - [0 - Preface](https://shorturl.at/cflo7)
+- [ Reading ](https://drive.google.com/uc?export=download&id=1Rng1SCDg7h8uiZJKRS6ZG0kZc0G0JKXA)
+- [ Sample Papers](https://drive.google.com/uc?export=download&id=1RrJgSZ9Qj_mSxHV5D5nFQVk4IP1JCs6S)
 
 ## Prose
 
@@ -74,4 +75,38 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 | 09   | What Happened to All the Reptiles | [Download Link](https://shorturl.at/bdnsW) | 15.49 MB  | August 17 at 1:27:27 PM  |
 | 10   | A Strange Wrestling Match         | [Download Link](https://shorturl.at/bKOR6) | 15.41 MB  | August 17 at 1:27:45 PM  |
 
+## Grammar
 
+| Sno. | File Name                | Download Link                              | File Size | Created At              |
+|------|--------------------------|--------------------------------------------|-----------|-------------------------|
+| 01   | The Sentence             | [Download Link](https://shorturl.at/flqZ1) | 5.14 MB   | August 17 at 1:28:02 PM |
+| 02   | Noun                     | [Download Link](https://shorturl.at/alt68) | 6.86 MB   | August 17 at 1:28:15 PM |
+| 03   | Pronoun                  | [Download Link](https://shorturl.at/gMNZ0) | 2.72 MB   | August 18 at 2:06:59 PM |
+| 04   | Adjectives               | [Download Link](https://shorturl.at/bivHT) | 4.71 MB   | August 18 at 2:07:20 PM |
+| 05   | Adverbs                  | [Download Link](https://shorturl.at/aHJU8) | 2.16 MB   | August 18 at 2:07:40 PM |
+| 06   | Conjunctions             | [Download Link](https://shorturl.at/aqryZ) | 2.79 MB   | August 18 at 2:08:02 PM |
+| 07   | Verbs                    | [Download Link](https://shorturl.at/hLPXY) | 2.95 MB   | August 18 at 2:08:23 PM |
+| 08   | Prepositions             | [Download Link](https://shorturl.at/elPS6) | 1.96 MB   | August 18 at 2:08:49 PM |
+| 09   | Interjection             | [Download Link](https://shorturl.at/mtuY3) | 473.53 KB | August 18 at 2:09:09 PM |
+| 10   | The Articles             | [Download Link](https://shorturl.at/hKMS4) | 1.89 MB   | August 18 at 2:09:30 PM |
+| 11   | Subject Verb Agreement   | [Download Link](https://shorturl.at/ht024) | 2.52 MB   | August 18 at 2:09:54 PM |
+| 12   | Modals                   | [Download Link](https://shorturl.at/DUW58) | 3.68 MB   | August 18 at 2:12:28 PM |
+| 13   | Tenses                   | [Download Link](https://shorturl.at/jrsyz) | 8.33 MB   | August 18 at 2:13:54 PM |
+| 14   | The Punctuation          | [Download Link](https://shorturl.at/CIQX2) | 2.98 MB   | August 18 at 2:54:52 PM |
+| 15   | Active and Passive Voice | [Download Link](https://shorturl.at/anpVX) | 3.88 MB   | August 18 at 2:55:14 PM |
+| 16   | Reported Speech          | [Download Link](https://shorturl.at/djtY6) | 4.21 MB   | August 18 at 2:55:36 PM |
+| 17   | Word Power               | [Download Link](https://shorturl.at/bty37) | 6.43 MB   | August 18 at 2:55:59 PM |
+| 18   | Integrated Exercise      | [Download Link](https://shorturl.at/ty046) | 2.67 MB   | August 18 at 2:56:39 PM |
+
+## Writing 
+
+| Sno. | File Name         | Download Link                              | File Size | Created At              |
+|------|-------------------|--------------------------------------------|-----------|-------------------------|
+| 01   | Notice            | [Download Link](https://shorturl.at/JOV35) | 3.83 MB   | August 18 at 2:57:18 PM |
+| 02   | Message           | [Download Link](https://shorturl.at/gpx09) | 4.11 MB   | August 18 at 2:57:32 PM |
+| 03   | Email             | [Download Link](https://shorturl.at/bdxJY) | 4.09 MB   | August 18 at 2:57:43 PM |
+| 04   | Paragraph Writing | [Download Link](https://shorturl.at/eHI67) | 8.35 MB   | August 18 at 2:57:57 PM |
+| 05   | Letter            | [Download Link](https://shorturl.at/efNW2) | 0 Bytes   | August 18 at 2:58:09 PM |
+| 06   | Diary Entry       | [Download Link](https://shorturl.at/dklR8) | 1.58 MB   | August 18 at 3:51:15 PM |
+| 07   | Story             | [Download Link](https://shorturl.at/bruvZ) | 6.72 MB   | August 18 at 3:51:25 PM |
+| 08   | Article           | [Download Link](https://shorturl.at/kpw07) | 7.95 MB   | August 18 at 3:51:37 PM |
