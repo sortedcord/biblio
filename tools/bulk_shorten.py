@@ -1,12 +1,8 @@
-import base64
-import os
-import shutil
 import time
 import selenium.webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import *
 from selenium.webdriver import ChromeOptions
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
@@ -24,12 +20,26 @@ lines = []
 
 
 with open(file_name, 'r') as f:
-    for line in f.readlines():
-        new_line = line.replace('.pdf', '').replace(' - ', ' | ').replace('<', '[Download Link](').replace('>', ')')
+    # add 1 to counter everytime 'https://drive.google.com' is found in the file
+    counter = 0
+    a = f.readlines()
+    for line in a:
+        if 'https://drive.google.com' in line:
+            counter += 1
 
+    print("Found {} links in {}".format(counter, file_name))
+
+
+    i = 1
+    for line in a:
+        new_line = line.replace('.pdf', '').replace(' - ', ' | ').replace('<', '[Download Link](').replace('>', ')')
+        new_line = new_line.replace('| https://','| [Download Link](https://').replace('export=download |', 'export=download) |')
         line = new_line
 
+        
         if 'https://drive.google.com' in line:
+            print(f"Processing link {i} of {counter}")
+            i += 1
             old_link = line.split('(')[-1].split(')')[0]
 
             browser.get("https://www.shorturl.at/")
