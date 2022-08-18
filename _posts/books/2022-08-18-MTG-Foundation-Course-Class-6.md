@@ -32,7 +32,7 @@ MTG's Foundation course for Science is the best academic textbook based upon the
 
 # Contents
 
-- [Cover and Preface]()
+- [Cover and Preface](https://drive.google.com/uc?id=1RvNwFeZZEFL7M8BSllnKSMY9Wm-bj6zL&export=download)
 
 ## Physics
 
