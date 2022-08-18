@@ -35,6 +35,7 @@ def main():
             break
         if "$n$" in description:
             break
+    description = description.replace("$n$","")
     
     # get all the tags of book from user
     # and store in a list
