@@ -14,11 +14,10 @@ categories:
 tags:
     - Physical Chemistry
     - Inorganic Chemistry
-    - Orgnic Chemistry
+    - Organic Chemistry
     - Chemistry
     - 'Coaching Material'
     - JEE
-    - doing
 ---
 
 # Organic Chemistry
