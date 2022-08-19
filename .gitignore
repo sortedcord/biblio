@@ -4,3 +4,4 @@
 _site
 Gemfile.lock
 credentials.json
+tools/target.md
