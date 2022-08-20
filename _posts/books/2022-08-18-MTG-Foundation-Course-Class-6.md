@@ -39,3 +39,4 @@ MTG's Foundation course for Science is the best academic textbook based upon the
 | Sno. | File name                           | Download Link                              | File Size | Created At                    |
 |------|-------------------------------------|--------------------------------------------|-----------|-------------------------------|
 | 01   | Motion and Measurement of Distances | [Download Link](https://shorturl.at/klt47) | 1.73 MB   | August 18, 2022 at 4:53:13 PM |
+| 02   | Light, Shadows and Reflection       | [Download Link](https://shorturl.at/bEQY2) | 1.82 MB   | August 20, 2022 at 5:40:59 PM |
