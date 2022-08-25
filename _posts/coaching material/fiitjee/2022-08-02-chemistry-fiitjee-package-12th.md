@@ -5,7 +5,7 @@ date: '2022-08-02T10:04:56+00:00'
 author: sortedcord
 layout: post
 permalink: /2022/08/02/chemistry-fiitjee-package-11th/
-image: /wp-content/uploads/2022/08/FIITJEE-Chemistry-In-Everyday-Life-RAW-300x392.jpg
+image: 
 categories:
     - 'Class 12'
     - 'IIT ADVANCED'
@@ -29,11 +29,11 @@ If you are studying chemistry then you must have wondered about the importance o
 
 ## Phase 5
 
-- [Chemistry in Everyday Life](https://drive.google.com/uc?export=download&id=1-enc9ffy5Ouz8tjGrY5ZV1daaSx6rIGK)
-- [Transisiton Elements](#)
-- [Ores and Metallurgy](#)
-- [Electrochemistry](#)
 - [Qualitative Analysis](#)
-- [p block (15-18)](#)
 - [Solid State](#)
 - [Liquid Solution and Surface Chemistry](#)
+- [Electrochemistry](#)
+- [Transisiton Elements](#)
+- [Ores and Metallurgy](#)
+- [p block (15-18)](#)
+- [Chemistry in Everyday Life](https://drive.google.com/uc?export=download&id=1-enc9ffy5Ouz8tjGrY5ZV1daaSx6rIGK)
