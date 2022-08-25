@@ -32,20 +32,29 @@ with open(file_name, 'r') as f:
 
     print("Found {} links in {}".format(counter, file_name))
 
-    i = 1
-    with alive_bar(counter, dual_line=False) as bar:
+    # if counter is less than 1 then quit
+    if counter < 1:
+        print("No links found in {}".format(file_name))
+        quit()
 
+    i = 1
+    with alive_bar(counter, dual_line=True) as bar:
         for line in a:
+            bar.title = f"Processing Line {i}"
+            bar.text = "Formatting Line"
             new_line = line.replace('.pdf', '').replace(
                 ' - ', ' | ').replace('<', '[Download Link](').replace('>', ')')
             new_line = new_line.replace(
                 '| https://', '| [Download Link](https://').replace('export=download |', 'export=download) |')
             line = new_line
 
+
             if 'https://drive.google.com' in line:
                 i += 1
+                bar.text = "Extracted Link"
                 old_link = line.split('(')[-1].split(')')[0]
 
+                bar.text = "Opening url shortner"
                 browser.get("https://www.shorturl.at/")
 
                 while True:
@@ -57,7 +66,7 @@ with open(file_name, 'r') as f:
                         break
 
                 s.send_keys(old_link)
-
+                bar.text = "Submit old link to server"
                 # click the button with value 'Shorten URL'
                 try:
                     browser.find_element(
@@ -65,14 +74,18 @@ with open(file_name, 'r') as f:
                 except NoSuchElementException:
                     while True:
                         pass
+                else:
+                    bar.text = "Request sent for short link"
 
                 # find the input with id shortenurl and get the value
                 new_link = (browser.find_element(
                     By.ID, 'shortenurl').get_attribute('value'))
+                bar.text = "Shortened link found"
                 new_line = new_line.replace(old_link, "https://"+new_link)
+                bar.text = "Replacing old link with new link"
+                bar()
 
             lines.append(new_line)
-            bar()
 browser.quit()
 
 with open(file_name, 'w') as f:

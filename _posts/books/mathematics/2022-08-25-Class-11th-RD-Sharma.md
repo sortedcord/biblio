@@ -12,6 +12,7 @@ categories:
 tags:
     - Maths
     - Mathematics
+    - doing
 
 ---
 
