@@ -38,10 +38,8 @@ with open(file_name, 'r') as f:
         quit()
 
     i = 1
-    with alive_bar(counter, dual_line=True) as bar:
+    with alive_bar(counter) as bar:
         for line in a:
-            bar.title = f"Processing Line {i}"
-            bar.text = "Formatting Line"
             new_line = line.replace('.pdf', '').replace(
                 ' - ', ' | ').replace('<', '[Download Link](').replace('>', ')')
             new_line = new_line.replace(
