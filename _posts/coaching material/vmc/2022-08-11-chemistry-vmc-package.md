@@ -20,39 +20,33 @@ tags:
     - JEE
 ---
 
-# Organic Chemistry
-
-- [Organic Concepts](https://drive.google.com/open?id=1nZMkCAGJ4PV4Ep7c4u5G4hK8fVxkIe8E)
-- [GOC](https://drive.google.com/open?id=1FqylU87py8F_pHrX0lwEKQKV6bMFQmK9)
-- [Hydrocarbons](https://drive.google.com/open?id=13yoCiTFDY9D1DbalWPAdoJS_UeSLJI0q)
-- [Alkyl Halides](https://drive.google.com/open?id=1FE2oxgVPuvnZ6X_WC3dMvZd32HR33WMl)
-- [Alcohols Phenols Ethers](https://drive.google.com/open?id=1rmPvuwCsb0wNNzm3w9iUzKb8I_eV2v16)
-
-# Physical Chemistry
-
-- [Atomic Structure](https://drive.google.com/open?id=1EczIHs7YEQU0kyTnPsyxFIoL88nZel33)
-- [Stoichiometry](https://drive.google.com/open?id=1BUtvfcw9CXIxpn12cpCUQW4orsvAGadQ)
-- [States Of Matter](https://drive.google.com/open?id=1feJb_R-hiB03RNIOwczNFsEPgdbcWAfP)
-- [Chem Equilibrium](https://drive.google.com/open?id=1PeJFQQKEgj3QM_zsWdcFNP4j1igEma9k)
-- [Ionic Equi](https://drive.google.com/open?id=1aG5Xf-hMsO4Q6yLlnaM4r-3Jc0cx7ugA)
-- [Chem Kinetics](https://drive.google.com/open?id=1WZZswmJu2ehyxw_UFwbk8X5m05lpVgOw)
-- [Chem Thermo 1](https://drive.google.com/open?id=1QTCff5iZbWMYDPfrMpNVrOCBqQ7tkKjS)
-- [Chem Thermo 2](https://drive.google.com/open?id=1tDTDYM0z0TV49JEvAz9wQNA6eyYfc7pI)
-- [Solid State](https://drive.google.com/open?id=1SPMqAXXOR8b2uiM3mXQplGthhnYIp4q2)
-- [Solutions](https://drive.google.com/open?id=16yOBrgqNjDYFjs6G4EnpVy0urtoF8U9W)
-- [Electrochem 1](https://drive.google.com/open?id=1E9ME_iRXAkMcfzmceZGgBvdalqjrbdnI)
-- [Thermochemistry](https://drive.google.com/open?id=1nKOClRCUYyD5_vIrL10f7MnuvSDjNO_F)
-- [Surface Chem](https://drive.google.com/open?id=1XHgV1Cya31Z1AYxFvzUiiJgi-qkDcTA8)
-
-# Inorganic Chemistry
-
-- [Chem Bonding 1](https://drive.google.com/open?id=1yWnTdZ8KmSL9JsPNvXP6XJgkR7ZxxEKp)
-- [Chem bonding 2](https://drive.google.com/open?id=1rKTiD-gdX9APjvcr6Ijjn8x1ivS8fIg1)
-- [Co.od Compounds](https://drive.google.com/open?id=16gKJYxX3L-S21OxuHGpi5s4vCHz4pSc3)
-- [D block](https://drive.google.com/open?id=1XLKU6M_pyxfg8tqS4Xp2yM3_EJ_NsqHz)
-- [Mettalurgy](https://drive.google.com/open?id=1SRx3r_nraaM8JH1HvivJldvt_-FUsyfV)
-- [P Block I](https://drive.google.com/open?id=1_cUQwRly4wE-3kdmaY3Z5o4EiAJ1yC_8)
-- [P block II](https://drive.google.com/open?id=1SE91jnjcg82fu-RI_3B6SFuIndt9k8Sq)
-- [Periodicity](https://drive.google.com/open?id=1iF13EsQT-Rc5aIGl6zxZ3VlEjsifTNeG)
-- [Redox](https://drive.google.com/open?id=1AEEd9QMeA1lxE2D5HYGbOYi9-8VOt2tF)
-- [S Block](https://drive.google.com/open?id=1WaFRlFxcsvAoPddHhjC39faMCjlvu7Uv)
+| #  | Folder Name | File name                     | Download Link                              | File Size  | Created At                    |
+|----|-------------|-------------------------------|--------------------------------------------|------------|-------------------------------|
+| 1  | Inorganic   | S Block                       | [Download Link](https://shorturl.at/kmnq4) | 575.92 KB  | August 11, 2022 at 9:49:45 AM |
+| 2  | Inorganic   | Redox Reactions               | [Download Link](https://shorturl.at/bijOS) | 699.74 KB  | August 11, 2022 at 9:49:43 AM |
+| 3  | Inorganic   | Periodicity                   | [Download Link](https://shorturl.at/cegkZ) | 798.34 KB  | August 11, 2022 at 9:49:44 AM |
+| 4  | Inorganic   | P block II                    | [Download Link](https://shorturl.at/djlpC) | 1.84 MB    | August 11, 2022 at 9:49:44 AM |
+| 5  | Inorganic   | P Block I                     | [Download Link](https://shorturl.at/fw034) | 712.58 KB  | August 11, 2022 at 9:50:59 AM |
+| 6  | Inorganic   | Mettalurgy                    | [Download Link](https://shorturl.at/aqwRU) | 697.68 KB  | August 11, 2022 at 9:51:02 AM |
+| 7  | Inorganic   | D block                       | [Download Link](https://shorturl.at/cejr4) | 528.44 KB  | August 11, 2022 at 9:49:24 AM |
+| 8  | Inorganic   | Coordination Compounds        | [Download Link](https://shorturl.at/kptX5) | 2.54 MB    | August 11, 2022 at 9:49:22 AM |
+| 10 | Inorganic   | Chemical Bonding 1            | [Download Link](https://shorturl.at/nqtyZ) | 1.78 MB    | August 11, 2022 at 9:49:09 AM |
+| 9  | Inorganic   | Chemical bonding 2            | [Download Link](https://shorturl.at/IJLRT) | 1.23 MB    | August 11, 2022 at 9:49:21 AM |
+| 11 | Organic     | Organic Concepts              | [Download Link](https://shorturl.at/bJZ05) | 3.49 MB    | August 11, 2022 at 9:40:41 AM |
+| 12 | Organic     | Hydrocarbons                  | [Download Link](https://shorturl.at/iJRVX) | 1.54 MB    | August 11, 2022 at 9:42:18 AM |
+| 13 | Organic     | General Organic Chemistry GOC | [Download Link](https://shorturl.at/gHZ16) | 2.96 MB    | August 11, 2022 at 9:41:52 AM |
+| 14 | Organic     | Alkyl Halides                 | [Download Link](https://shorturl.at/afux4) | 1.88 MB    | August 11, 2022 at 9:42:06 AM |
+| 15 | Organic     | Alcohol Phenol Ether          | [Download Link](https://shorturl.at/djNSZ) | 2.35 MB    | August 11, 2022 at 9:41:49 AM |
+| 16 | Physical    | Thermochemistry               | [Download Link](https://shorturl.at/flMQY) | 1.05 MB    | August 11, 2022 at 9:46:32 AM |
+| 17 | Physical    | Surface Chemistry             | [Download Link](https://shorturl.at/jlp06) | 475.02 KB  | August 11, 2022 at 9:46:22 AM |
+| 18 | Physical    | Stoichiometry                 | [Download Link](https://shorturl.at/bFIP2) | 538.84 KB  | August 11, 2022 at 9:47:14 AM |
+| 19 | Physical    | States Of Matter              | [Download Link](https://shorturl.at/gqxY9) | 1.72 MB    | August 11, 2022 at 9:47:11 AM |
+| 20 | Physical    | Solutions                     | [Download Link](https://shorturl.at/COW27) | 543.34 KB  | August 11, 2022 at 9:46:40 AM |
+| 21 | Physical    | Solid State                   | [Download Link](https://shorturl.at/NPRS4) | 2.74 MB    | August 11, 2022 at 9:46:45 AM |
+| 22 | Physical    | Ionic Equilibrium             | [Download Link](https://shorturl.at/uZ238) | 1.04 MB    | August 11, 2022 at 9:47:02 AM |
+| 23 | Physical    | Electrochemistry 1            | [Download Link](https://shorturl.at/iNT16) | 1.01 MB    | August 11, 2022 at 9:46:36 AM |
+| 24 | Physical    | Chemical Thermodynamics 2     | [Download Link](https://shorturl.at/SVWY4) | 501.94 KB  | August 11, 2022 at 9:46:49 AM |
+| 25 | Physical    | Chemical Thermodynamics 1     | [Download Link](https://shorturl.at/bHJMX) | 582.72 KB  | August 11, 2022 at 9:46:54 AM |
+| 26 | Physical    | Chemical Kinetics             | [Download Link](https://shorturl.at/kmsz4) | 717.48 KB  | August 11, 2022 at 9:46:58 AM |
+| 27 | Physical    | Chemical Equilibrium          | [Download Link](https://shorturl.at/DENPS) | 885.28 KB  | August 11, 2022 at 9:47:05 AM |
+| 28 | Physical    | Atomic Structure              | [Download Link](https://shorturl.at/hIVZ5) | 1004.64 KB | August 11, 2022 at 9:47:16 AM |

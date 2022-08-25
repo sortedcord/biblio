@@ -43,7 +43,7 @@ with open(file_name, 'r') as f:
             new_line = line.replace('.pdf', '').replace(
                 ' - ', ' | ').replace('<', '[Download Link](').replace('>', ')')
             new_line = new_line.replace(
-                '| https://', '| [Download Link](https://').replace('export=download |', 'export=download) |')
+                '| https://', '| [Download Link](https://').replace('export=download |', 'export=download) |').replace(' # ', ' S.No. ')
             line = new_line
 
 
