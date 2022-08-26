@@ -256,8 +256,7 @@ with open(file_name, 'r') as f:
     i = 1
     with alive_bar(counter, title="Shortening Links") as bar:
         for line in a:
-            new_line = line.replace('.pdf', '').replace(
-                ' - ', ' | ').replace('<', '[Download Link](').replace('>', ')')
+            new_line = line.replace('.pdf', '').replace('<', '[Download Link](').replace('>', ')')
             new_line = new_line.replace(
                 '| https://', '| [Download Link](https://').replace('export=download |', 'export=download) |').replace(' # ', ' S.No. ')
             line = new_line
