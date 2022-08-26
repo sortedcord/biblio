@@ -1,17 +1,19 @@
-| #  | ï»¿"Folder Name" | File name                                      | Download Link                                                                    | File Size | Created At                    |
-|----|---------------------|------------------------------------------------|----------------------------------------------------------------------------------|-----------|-------------------------------|
-| 1  | Assignments         | Algebra Formula Sheet.pdf                      | https://drive.google.com/uc?id=1-ALu_8bg10iJ3avprDmwyjV1JcOLQqc9&export=download | 494.26 KB | April 8, 2022 at 8:07:18 AM   |
-| 2  | Assignments         | CH1_PHYSICS_ASSIGNMENT_ELECTROSTATICS_HOME.pdf | https://drive.google.com/uc?id=10Fhp8k3CJOPAU-k-v8eOcThtDvRW8Vwv&export=download | 243.61 KB | April 23, 2022 at 10:53:33 PM |
-| 3  | Meta                | Chemistry_SrSec_2022-23.pdf                    | https://drive.google.com/uc?id=10LRw35-c2YJYDmdX_LXvdI0buT3YzLOa&export=download | 349.81 KB | April 24, 2022 at 7:27:07 AM  |
-| 4  | Meta                | Class 12-UT1.pdf                               | https://drive.google.com/uc?id=1-k2no1LlW28KN0T5BfhAcYE_S8Swhmn2&export=download | 107.36 KB | April 18, 2022 at 10:41:33 AM |
-| 5  | Meta                | Class 12th Booklist .jpg                       | https://drive.google.com/uc?id=1neu_sbBMM_Xfka7F1xXHVhqjgnctjC7A&export=download | 554.55 KB | March 17, 2022 at 10:48:33 AM |
-| 6  | Tests               | English UT 1 Answer Sheet.pdf                  | https://drive.google.com/uc?id=1qX3hdP7BErIVq4vA3OELwxgh7Q6Xiuct&export=download | 2.16 MB   | May 19, 2022 at 12:12:00 PM   |
-| 7  | Tests               | IMG_20220317_214225.jpg                        | https://drive.google.com/uc?id=1oYGqHJQCYcj7NTjA_mCZB2sV3JTGU81W&export=download | 258.33 KB | July 5, 2022 at 2:10:42 PM    |
-| 8  | Meta                | Maths_SrSec_2022-23.pdf                        | https://drive.google.com/uc?id=1-zSr-k2KVFwVmU-vOUBKyIqeyO2Vg_IL&export=download | 0 Bytes   | April 21, 2022 at 7:07:45 PM  |
-| 9  | Sumit Math Tuition  | Relation Function Tuition Test.pdf             | https://drive.google.com/uc?id=1BrLGQ7t3JqnwYCH_aT7FvkxnLi_VtjYn&export=download | 114.76 KB | May 5, 2022 at 1:02:14 PM     |
-| 10 | Assignments         | The Third Level Final.docx                     | https://drive.google.com/uc?id=1-9Nt5ejb_VIgqoSGJwhZirJYH_QSttTn&export=download | 18.51 KB  | April 10, 2022 at 10:23:11 AM |
-| 11 | Meta                | Unit Test 1 Date sheet.pdf                     | https://drive.google.com/uc?id=1-jz0fnO2yMsXjEHWvkgrRKoewWKx-qm_&export=download | 532.35 KB | April 18, 2022 at 10:40:50 AM |
-| 12 | Class 12            | ZCO Handbook.pdf                               | https://drive.google.com/uc?id=1ihd1Ece8Zkj-NlWo4L226sR8_Xzrv28s&export=download | 1.05 MB   | March 24, 2022 at 3:28:03 AM  |
-| 13 | Meta                | caf60e1d-3166-4258-9562-fd45c6fb5070.jpeg      | https://drive.google.com/uc?id=1-otMOAuwIi3vxAIt49cB2TqJ9ZIwqett&export=download | 40.7 KB   | April 20, 2022 at 4:05:28 PM  |
-| 14 | Meta                | randomist.py                                   | https://drive.google.com/uc?id=1-vqYLAUkwGf8CCJWd4eCRcEi4QHnomzQ&export=download | 212 Bytes | April 21, 2022 at 9:59:08 AM  |
-| 15 | Assignments         | 1. Relations and Functions.pdf                 | https://drive.google.com/uc?id=1-8zPnDilwRR0mLwC0qlrl-vqtnbDhBdp&export=download | 611.11 KB | April 8, 2022 at 8:07:18 AM   |
+| S.No. | File name                                      | Download Link                              | File Size  | Created At                     |
+|-------|------------------------------------------------|--------------------------------------------|------------|--------------------------------|
+| 00    | Cover                                          | [Download Link](https://shorturl.at/jnrsW) | 197.7 KB   | August 25, 2022 at 12:05:04 PM |
+| 01    | Sets                                           | [Download Link](https://shorturl.at/hiPS5) | 2.12 MB    | August 25, 2022 at 12:05:21 PM |
+| 02    | Relations                                      | [Download Link](https://shorturl.at/fkPR6) | 1021.56 KB | August 25, 2022 at 12:05:37 PM |
+| 03    | Functions                                      | [Download Link](https://shorturl.at/belpX) | 1.4 MB     | August 25, 2022 at 12:05:59 PM |
+| 04    | Measurement of Angles                          | [Download Link](https://shorturl.at/bUZ49) | 644.75 KB  | August 25, 2022 at 12:06:47 PM |
+| 05    | Trigonometric Functions                        | [Download Link](https://shorturl.at/ADP12) | 13.86 MB   | August 25, 2022 at 12:07:17 PM |
+| 06    | Graphs of Trigonometric Functions              | [Download Link](https://shorturl.at/biMU9) | 10.18 MB   | August 25, 2022 at 12:07:38 PM |
+| 07    | Values of Trigonometric Functions at sum       | [Download Link](https://shorturl.at/cgmS4) | 777 KB     | August 25, 2022 at 12:08:01 PM |
+| 08    | Transformation Formulae                        | [Download Link](https://shorturl.at/PRX12) | 560.08 KB  | August 25, 2022 at 12:08:19 PM |
+| 09    | Values of Trigonometric Functions at Multiples | [Download Link](https://shorturl.at/AHIU9) | 3.46 MB    | August 25, 2022 at 12:08:48 PM |
+| 10    | Sine and Cosine Formulae                       | [Download Link](https://shorturl.at/kmpU9) | 15.48 MB   | August 25, 2022 at 6:03:08 PM  |
+| 11    | Trigonometric Equations                        | [Download Link](https://shorturl.at/dfzJK) | 11.43 MB   | August 25, 2022 at 6:28:44 PM  |
+| 12    | Mathematical Induction                         | [Download Link](https://shorturl.at/efQZ2) | 14.49 MB   | August 25, 2022 at 6:46:11 PM  |
+| 13    | Complex Numbers                                | [Download Link](https://shorturl.at/AGHI8) | 30.09 MB   | August 26, 2022 at 1:11:06 PM  |
+| 14    | Quadratic Equations                            | [Download Link](https://shorturl.at/chQSZ) | 8.21 MB    | August 26, 2022 at 1:48:53 PM  |
+| 15    | Linear Inequations                             | [Download Link](https://shorturl.at/QWYZ5) | 15.1 MB    | August 26, 2022 at 1:49:17 PM  |
+| 16    | Permutations                                   | [Download Link](https://shorturl.at/eyz23) | 6.5 MB     | August 26, 2022 at 2:03:53 PM  |
