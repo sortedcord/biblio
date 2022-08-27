@@ -10,311 +10,273 @@ import glob
 import pickle as pk
 import random
 
+from utils import waitforpage, createBrowser, shortenlink, clearconsole
 
 
-def clearconsole():
-    if os.name == 'nt':
-        os.system('cls')
-    else:
-        os.system('cls')
+def remove_serial(line, fl):
+    _ = 0
+    if fl:
+        _ += 1
+    rest_line = ""
+    for i in line.split("|")[3+_:]:
+        rest_line += i + "|"
+    return line.split("|")[0+_] + "|" + line.split("|")[1+_] + "|" + line.split("|")[2+_].split(" -")[-1] + "|" + rest_line
 
 
-def createBrowser(headless):
-    s = Service('chromedriver.exe')
-    options = Options()
-    options.add_argument(
-        "user-data-dir=C:/Users/Administrator/AppData/Local/Google/Chrome/User Data/")
-    options.add_argument('--profile-directory=Profile 1')
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    options.add_argument("--disable-web-security")
-
-    if headless:
-        # make chrome headless
-        options.add_argument('headless')
-
-    return selenium.webdriver.Chrome(service=s, options=options)
-
-
-def waitforpage(browser, method, element, click=True):
-    i = 0
-    while True:
-        try:
-            i+= 1
-            e = browser.find_element(method, element)
-            time.sleep(1)
-        except NoSuchElementException:
-            time.sleep(1)
-            continue
-        else:
-            break
-    if click:
-        e.click()
-    return e
-
-clearconsole()
-
-with alive_bar(dual_line=False) as bar:
-
-    bar.text("Starting Chrome")
-    browser = createBrowser(False)
-    bar()
-
-    with bar.pause():
-        folder_id = input("Enter folder id: ")
+def fetch_table():
     clearconsole()
 
-    bar.text("Loading Drive Explorer")
-    browser.get(
-        f'https://syncwithtech.com/drive?state=%7B"ids":%5B"{folder_id}"%5D,"action":"open","userId":"100758669744711932203","resourceKeys":%7B%7D%7D')
+    with alive_bar(dual_line=False) as bar:
 
-    # Wait until a span saying "FILE NAME" is found and then click it
-    waitforpage(browser, By.XPATH,
-                '//span[contains(text(), "File name")]', True)
-    bar()
+        bar.text("Starting Chrome")
+        browser = createBrowser(False)
+        bar()
 
-    bar.text("Fetching CSV")
-    # Click a span containing text "Export CSV"
-    browser.find_element(
-        By.XPATH, "//span[contains(text(), 'Export CSV')]").click()
-
-    # Get the downloads folder
-    downloads_folder = os.path.join(os.environ['USERPROFILE'], 'Downloads')
-
-    # Get the last downloaded file in the downloads folder
-    time.sleep(1)
-    # * means all if need specific format then *.csv
-    list_of_files = glob.glob(f"C:/Users/{os.environ['USERNAME']}/Downloads/*")
-    latest_file = max(list_of_files, key=os.path.getctime)
-
-    # Move the latest file to current directory as table.csv
-    os.system(f"move {latest_file} table.csv")
-    clearconsole()
-
-    # Read table.csv file
-    with open('table.csv', 'r') as file:
-        csv_data = file.read().replace("ï»¿", "")
-
-    # Delete table.csv
-    try:
-        os.system('del table.csv')
-    except:
-        pass
-    clearconsole()
-    bar()
-
-    bar.text("Loading CSV Convertor")
-    browser.get("https://www.convertcsv.com/csv-to-markdown.htm")
-
-    # Wait until textarea is loaded and then enter csv_data into it
-    text_area = waitforpage(browser, By.XPATH, '//textarea')
-    text_area.send_keys(csv_data)
-    bar()
-
-    bar.text("Converting CSV to Markdown")
-    # Find all spans with class name 'glyphicon glyphicon-chevron-down'
-    spans = browser.find_elements(
-        By.XPATH, "//span[@class='glyphicon glyphicon-chevron-down']")
-
-    for span in spans:
-        time.sleep(0.5)
-        while True:
-            try:
-                span.click()
-            except ElementClickInterceptedException:
-                time.sleep(1)
-            else:
-                break
-
-    with bar.pause():
-        _ = input("Do you want to show folder name in table? (y/n)")
+        with bar.pause():
+            folder_id = input("Enter folder id: ")
         clearconsole()
-    if _ == 'y':
-        input_headers = "1,3,4,5,6"
-    else:
-        input_headers = "3,4,5,6"
 
-    # click on an input with id as  "txtCols"
-    browser.find_element(By.ID, "txtCols").click()
+        bar.text("Loading Drive Explorer")
+        browser.get(
+            f'https://syncwithtech.com/drive?state=%7B"ids":%5B"{folder_id}"%5D,"action":"open","userId":"100758669744711932203","resourceKeys":%7B%7D%7D')
 
-    # Clear the text in the input with id as "txtCols"
-    browser.find_element(By.ID, "txtCols").clear()
+        # Wait until a span saying "FILE NAME" is found and then click it
+        waitforpage(browser, By.XPATH,
+                    '//span[contains(text(), "File name")]', True)
+        bar()
 
-    # Enter the headers in the input with id as "txtCols"
-    browser.find_element(By.ID, "txtCols").send_keys(input_headers)
-    with bar.pause():
-        _ = input("Do you want to show serial numbers? (y/n)")
-        clearconsole()
-    if _ == 'y':
-        # Click an input with id 'chkLineNumbers'
-        while True:
-            try:
-                browser.find_element(By.ID, "chkLineNumbers").click()
-            except ElementClickInterceptedException:
-                time.sleep(1)
-            else:
-                break
-    
-    uname = f"{random.randint(1000,9999)}bibtable"
+        bar.text("Fetching CSV")
+        # Click a span containing text "Export CSV"
+        browser.find_element(
+            By.XPATH, "//span[contains(text(), 'Export CSV')]").click()
 
-    browser.find_element(By.XPATH, "//input[@title='Enter filename without extension']").clear()
-    browser.find_element(By.XPATH, "//input[@title='Enter filename without extension']").send_keys(uname)
+        # Get the downloads folder
+        downloads_folder = os.path.join(os.environ['USERPROFILE'], 'Downloads')
 
-    # click on an input with title 'Convert CSV To Markdown Table'
-    browser.find_element(
-        By.XPATH, "//input[@title='Convert CSV To Markdown Table']").click()
-    bar()
-    bar.text("Saving Markdown")
-    time.sleep(2)
-
-    # Click on input with value 'Download Result' and type="button"
-    while True:
-        browser.find_element(By.XPATH, "//input[@value='Download Result' and @type='button']").click()
-
+        # Get the last downloaded file in the downloads folder
         time.sleep(1)
-        list_of_files = glob.glob(f"C:/Users/{os.environ['USERNAME']}/Downloads/*")
+        # * means all if need specific format then *.csv
+        list_of_files = glob.glob(
+            f"C:/Users/{os.environ['USERNAME']}/Downloads/*")
         latest_file = max(list_of_files, key=os.path.getctime)
 
-        if f"{uname}.md" in latest_file:
-            break
+        # Move the latest file to current directory as table.csv
+        os.system(f"move {latest_file} table.csv")
+        clearconsole()
 
-    # Read table.csv file
-    with open(latest_file, 'r') as file:
-        md_table = file.read()
-    os.system(f"del {latest_file}")
+        # Read table.csv file
+        with open('table.csv', 'r') as file:
+            csv_data = file.read().replace("ï»¿", "")
 
-    bar()
-    bar.text("Loading Markdown Formatter")
-    browser.get("http://markdowntable.com/")
-
-    # Wait until textarea with id as "md_table_holder" is loaded then enter md_table into it
-    while True:
+        # Delete table.csv
         try:
-            textarea = browser.find_element(By.ID, "md_table_holder")
-            textarea.send_keys(md_table)
-        except NoSuchElementException:
-            time.sleep(1)
-        else:
-            break
-    bar()
-    bar.text("Formatting Markdown")
-    # Click on input with id as "format_button"
-    browser.find_element(By.ID, "format_button").click()
+            os.system('del table.csv')
+        except:
+            pass
+        clearconsole()
+        bar()
 
-    # Copy text from textarea with id as "md_table_holder"
-    text = browser.find_element(
-        By.ID, "md_table_holder").get_attribute('value')
-    bar()
+        bar.text("Loading CSV Convertor")
+        browser.get("https://www.convertcsv.com/csv-to-markdown.htm")
 
-    bar.text("Saving Markdown")
-    # Write text to file
-    try:
-        with open('tools/target.md', 'w') as file:
-            file.write(text)
-    except:
-        with open('target.md', 'w') as file:
-            file.write(text)
+        # Wait until textarea is loaded and then enter csv_data into it
+        text_area = waitforpage(browser, By.XPATH, '//textarea')
+        text_area.send_keys(csv_data)
+        bar()
 
-    bar()
+        bar.text("Converting CSV to Markdown")
+        # Find all spans with class name 'glyphicon glyphicon-chevron-down'
+        spans = browser.find_elements(
+            By.XPATH, "//span[@class='glyphicon glyphicon-chevron-down']")
 
-    bar.text("Regnerating table")
-
-clearconsole()
-
-# If 'tools/ids.dat' file exists then pickle load it
-if os.path.exists('tools/ids.dat'):
-    with open('tools/ids.dat', 'rb') as file:
-        ids = pk.load(file)
-else:
-    ids = {}
-
-file_name = 'target.md'
-
-try:
-    with open(file_name, 'r') as file:
-        text = file.read()
-except:
-    file_name = 'tools/target.md'
-
-lines = []
-
-
-with open(file_name, 'r') as f:
-    # add 1 to counter everytime 'https://drive.google.com' is found in the file
-    counter = 0
-    a = f.readlines()
-    for line in a:
-        if 'https://drive.google.com' in line:
-            counter += 1
-
-    print("Found {} links in {}".format(counter, file_name))
-
-    # if counter is less than 1 then quit
-    if counter < 1:
-        print("No links found in {}".format(file_name))
-        quit()
-
-    i = 1
-    with alive_bar(counter, title="Shortening Links") as bar:
-        for line in a:
-            new_line = line.replace('.pdf', '').replace('<', '[Download Link](').replace('>', ')')
-            new_line = new_line.replace(
-                '| https://', '| [Download Link](https://').replace('export=download |', 'export=download) |').replace(' # ', ' S.No. ')
-            line = new_line
-
-            if 'https://drive.google.com' in line:
-                i += 1
-                bar.text = "Extracted Link"
-                old_link = line.split('(')[-1].split(')')[0]
-
-                # Get the google drive file id from link
-                file_id = old_link.split('id=')[-1].split("&export=")[0]
-
-                # check if file_id is in ids
-                if file_id in ids.keys():
-                    new_link = ids[file_id]
+        for span in spans:
+            time.sleep(0.5)
+            while True:
+                try:
+                    span.click()
+                except ElementClickInterceptedException:
+                    time.sleep(1)
                 else:
+                    break
 
-                    bar.text = "Opening url shortner"
-                    browser.get("https://www.shorturl.at/")
+        with bar.pause():
+            _ = input("Do you want to show folder name in table? (y/n)")
+            clearconsole()
+        if _ == 'y':
+            input_headers = "1,3,4,5,6"
+            fl = True
+        else:
+            input_headers = "3,4,5,6"
+            fl = False
 
-                    waitforpage(browser, By.NAME, "u", False)
-                    while True:
-                        try:
-                            s = browser.find_element(By.NAME, 'u')
-                        except NoSuchElementException:
-                            time.sleep(1)
-                        else:
-                            break
+        # click on an input with id as  "txtCols"
+        browser.find_element(By.ID, "txtCols").click()
 
-                    s.send_keys(old_link)
-                    bar.text = "Submit old link to server"
-                    # click the button with value 'Shorten URL'
-                    try:
-                        browser.find_element(
-                            By.XPATH, "//input[@value='Shorten URL']").click()
-                    except NoSuchElementException:
-                        while True:
-                            pass
+        # Clear the text in the input with id as "txtCols"
+        browser.find_element(By.ID, "txtCols").clear()
+
+        # Enter the headers in the input with id as "txtCols"
+        browser.find_element(By.ID, "txtCols").send_keys(input_headers)
+        with bar.pause():
+            _ = input("Do you want to show serial numbers? (y/n)")
+            clearconsole()
+        if _ == 'y':
+            # Click an input with id 'chkLineNumbers'
+            while True:
+                try:
+                    browser.find_element(By.ID, "chkLineNumbers").click()
+                except ElementClickInterceptedException:
+                    time.sleep(1)
+                else:
+                    break
+
+        uname = f"{random.randint(1000,9999)}bibtable"
+
+        browser.find_element(
+            By.XPATH, "//input[@title='Enter filename without extension']").clear()
+        browser.find_element(
+            By.XPATH, "//input[@title='Enter filename without extension']").send_keys(uname)
+
+        # click on an input with title 'Convert CSV To Markdown Table'
+        browser.find_element(
+            By.XPATH, "//input[@title='Convert CSV To Markdown Table']").click()
+        bar()
+        bar.text("Saving Markdown")
+        time.sleep(2)
+
+        # Click on input with value 'Download Result' and type="button"
+        while True:
+            browser.find_element(
+                By.XPATH, "//input[@value='Download Result' and @type='button']").click()
+
+            time.sleep(1)
+            list_of_files = glob.glob(
+                f"C:/Users/{os.environ['USERNAME']}/Downloads/*")
+            latest_file = max(list_of_files, key=os.path.getctime)
+
+            if f"{uname}.md" in latest_file:
+                break
+
+        # Read table.csv file
+        with open(latest_file, 'r') as file:
+            md_table = file.read()
+        os.system(f"del {latest_file}")
+
+        bar()
+        bar.text("Loading Markdown Formatter")
+        browser.get("http://markdowntable.com/")
+
+        # Wait until textarea with id as "md_table_holder" is loaded then enter md_table into it
+        while True:
+            try:
+                textarea = browser.find_element(By.ID, "md_table_holder")
+                textarea.send_keys(md_table)
+            except NoSuchElementException:
+                time.sleep(1)
+            else:
+                break
+        bar()
+        bar.text("Formatting Markdown")
+        # Click on input with id as "format_button"
+        browser.find_element(By.ID, "format_button").click()
+
+        # Copy text from textarea with id as "md_table_holder"
+        text = browser.find_element(
+            By.ID, "md_table_holder").get_attribute('value')
+        bar()
+
+        bar.text("Saving Markdown")
+        # Write text to file
+        try:
+            with open('tools/target.md', 'w') as file:
+                file.write(text)
+        except:
+            with open('target.md', 'w') as file:
+                file.write(text)
+
+        bar()
+
+        bar.text("Regnerating table")
+
+    bib_format(browser, fl)
+
+
+def bib_format(browser, fl):
+    clearconsole()
+
+    # If 'tools/ids.dat' file exists then pickle load it
+    if os.path.exists('tools/ids.dat'):
+        with open('tools/ids.dat', 'rb') as file:
+            ids = pk.load(file)
+    else:
+        ids = {}
+
+    file_name = 'target.md'
+
+    try:
+        with open(file_name, 'r') as file:
+            text = file.read()
+    except:
+        file_name = 'tools/target.md'
+
+    lines = []
+
+    with open(file_name, 'r') as f:
+        # add 1 to counter everytime 'https://drive.google.com' is found in the file
+        counter = 0
+        a = f.readlines()
+        for line in a:
+            if 'https://drive.google.com' in line:
+                counter += 1
+
+        print("Found {} links in {}".format(counter, file_name))
+
+        # if counter is less than 1 then quit
+        if counter < 1:
+            print("No links found in {}".format(file_name))
+            quit()
+
+        i = 1
+        with alive_bar(counter, title="Shortening Links") as bar:
+            for line in a:
+                new_line = line.replace('.pdf', '').replace(
+                    '<', '[Download Link](').replace('>', ')')
+                new_line = new_line.replace(
+                    '| https://', '| [Download Link](https://').replace('export=download |', 'export=download) |').replace(' # ', ' S.No. ')
+
+                new_line = remove_serial(new_line, fl)
+
+                if 'https://drive.google.com' in new_line:
+                    i += 1
+                    bar.text = "Extracted Link"
+                    old_link = new_line.split('(')[-1].split(')')[0]
+
+                    # Get the google drive file id from link
+                    file_id = old_link.split('id=')[-1].split("&export=")[0]
+
+                    # check if file_id is in ids
+                    if file_id in ids.keys():
+                        new_link = 'https://' + ids[file_id]
                     else:
-                        bar.text = "Request sent for short link"
+                        new_link = shortenlink(old_link, browser, bar)
+                        bar.text = "Shortened link found"
 
-                    # find the input with id shortenurl and get the value
-                    new_link = (browser.find_element(
-                        By.ID, 'shortenurl').get_attribute('value'))
-                    bar.text = "Shortened link found"
-                new_line = new_line.replace(old_link, "https://"+new_link)
-                bar.text = "Replacing old link with new link"
-                bar()
+                    new_line = new_line.replace(old_link, new_link)
+                    bar.text = "Replacing old link with new link"
+                    bar()
 
-                ids[file_id] = new_link
+                    ids[file_id] = new_link
 
-            lines.append(new_line)
+                lines.append(new_line)
 
-browser.quit()
+    browser.quit()
 
-with open('tools/ids.dat', 'wb') as file:
-    pk.dump(ids, file)
+    with open('tools/ids.dat', 'wb') as file:
+        pk.dump(ids, file)
 
-with open(file_name, 'w') as f:
-    for line in lines:
-        f.write(line)
+    with open(file_name, 'w') as f:
+        for line in lines:
+            f.write(line)
+
+
+fetch_table()
