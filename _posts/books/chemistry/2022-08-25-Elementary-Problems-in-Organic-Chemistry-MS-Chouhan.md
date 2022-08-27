@@ -36,3 +36,4 @@ tags:
 | 1     | Cover                                | [Download Link](https://shorturl.at/acm34) | 4.21 MB   | August 12, 2022 at 10:48:39 PM |
 | 2     | Some Basic Principles and Techniques | [Download Link](https://shorturl.at/djpS3) | 43.78 MB  | August 25, 2022 at 4:44:24 PM  |
 | 3     | Hydrocarbons                         | [Download Link](https://shorturl.at/DW678) | 3.47 MB   | August 26, 2022 at 2:31:10 PM  |
+| 4     | Haloalkanes and Haloarenes           | [Download Link](https://shorturl.at/ijNR3) | 2 MB      | August 27, 2022 at 8:58:00 PM  |
