@@ -31,9 +31,12 @@ tags:
 
 ---
 
-| S.No. | File name                            | Download Link                              | File Size | Created At                     |
-|-------|--------------------------------------|--------------------------------------------|-----------|--------------------------------|
-| 1     | Cover                                | [Download Link](https://shorturl.at/acm34) | 4.21 MB   | August 12, 2022 at 10:48:39 PM |
-| 2     | Some Basic Principles and Techniques | [Download Link](https://shorturl.at/djpS3) | 43.78 MB  | August 25, 2022 at 4:44:24 PM  |
-| 3     | Hydrocarbons                         | [Download Link](https://shorturl.at/DW678) | 3.47 MB   | August 26, 2022 at 2:31:10 PM  |
-| 4     | Haloalkanes and Haloarenes           | [Download Link](https://shorturl.at/ijNR3) | 2 MB      | August 27, 2022 at 8:58:00 PM  |
+<!-- TABLE START -->
+|   S.No. | File Name                            | Download Link                              | File Size   | Created At                     |
+|---------|--------------------------------------|--------------------------------------------|-------------|--------------------------------|
+|      00 | Cover                                | [Download Link](https://shorturl.at/CDKL1) | 4.2 MB      | August 12, 2022 at 05:18:39 PM |
+|      01 | Some Basic Principles and Techniques | [Download Link](https://shorturl.at/opwDH) | 43.8 MB     | August 25, 2022 at 11:14:24 AM |
+|      02 | Hydrocarbons                         | [Download Link](https://shorturl.at/bGJP7) | 3.5 MB      | August 26, 2022 at 09:01:10 AM |
+|      03 | Haloalkanes and Haloarenes           | [Download Link](https://shorturl.at/gIR05) | 14.5 MB     | August 27, 2022 at 03:28:00 PM |
+|      04 | Alcohols, Phenols and Ethers         | [Download Link](https://shorturl.at/ozARS) | 1.5 MB      | August 28, 2022 at 12:07:47 PM |
+<!-- TABLE END -->

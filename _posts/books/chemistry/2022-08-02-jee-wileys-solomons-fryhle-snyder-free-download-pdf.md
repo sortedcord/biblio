@@ -6,24 +6,6 @@ author: sortedcord
 layout: post
 guid: 'http://localhost/wordpress/?p=2247'
 permalink: /2022/08/02/jee-wileys-solomons-fryhle-snyder-free-download-pdf/
-csco_page_load_nextpost:
-    - default
-csco_post_video_location:
-    - 'a:0:{}'
-csco_post_video_url:
-    - ''
-csco_post_video_bg_start_time:
-    - '0'
-csco_post_video_bg_end_time:
-    - '0'
-powerkit_share_buttons_transient_facebook:
-    - '1659705216'
-powerkit_share_buttons_transient_pinterest:
-    - '1659705217'
-nectar_blog_post_view_count:
-    - '3'
-fifu_image_url:
-    - 'https://i.imgur.com/sehLMVd.png'
 image: 'https://i.imgur.com/sehLMVd.png'
 categories:
     - 'Class 11'

@@ -34,6 +34,7 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 
 ## Prose
 
+<!-- TABLE START -->
 | Sno. | File name                              | Download Link                              | File Size | Created At               |
 |------|----------------------------------------|--------------------------------------------|-----------|--------------------------|
 | 01   | Who did Patrick's Homework             | [Download Link](https://shorturl.at/dJMZ2) | 20.5 MB   | August 13 at 9:11:38 AM  |
@@ -46,9 +47,11 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 | 08   | A Game Of Chance                       | [Download Link](https://shorturl.at/chm17) | 17.58 MB  | August 13 at 9:09:08 AM  |
 | 09   | Desert Animals                         | [Download Link](https://shorturl.at/cEGVX) | 17.3 MB   | August 14 at 7:56:09 PM  |
 | 10   | The Banyan Tree                        | [Download Link](https://shorturl.at/aknO1) | 22.24 MB  | August 15 at 12:33:28 PM |
+<!-- TABLE END -->
 
 ## Poem
 
+<!-- TABLE START -->
 | Sno. | File Name                    | Download Link                              | File Size | Created At               |
 |------|------------------------------|--------------------------------------------|-----------|--------------------------|
 | 01   | A House, A Home              | [Download Link](https://shorturl.at/bhV25) | 10.16 MB  | August 15 at 12:05:10 PM |
@@ -59,9 +62,11 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 | 06   | The Wonderful Words          | [Download Link](https://shorturl.at/ABCEG) | 5.67 MB   | August 17 at 11:38:12 AM |
 | 07   | Vocation                     | [Download Link](https://shorturl.at/mVZ27) | 5.34 MB   | August 17 at 12:01:06 PM |
 | 08   | Whatif                       | [Download Link](https://shorturl.at/BHQRY) | 5.11 MB   | August 17 at 12:01:19 PM |
+<!-- TABLE END -->
 
 ## Supplementary
 
+<!-- TABLE START -->
 | Sno. | File Name                         | Download Link                              | File Size | Created At               |
 |------|-----------------------------------|--------------------------------------------|-----------|--------------------------|
 | 01   | A Tale of Two Birds               | [Download Link](https://shorturl.at/ilRTZ) | 7.65 MB   | August 17 at 12:32:52 PM |
@@ -74,9 +79,11 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 | 08   | A Pact with the Sun               | [Download Link](https://shorturl.at/kTY03) | 10.28 MB  | August 17 at 1:01:31 PM  |
 | 09   | What Happened to All the Reptiles | [Download Link](https://shorturl.at/bdnsW) | 15.49 MB  | August 17 at 1:27:27 PM  |
 | 10   | A Strange Wrestling Match         | [Download Link](https://shorturl.at/bKOR6) | 15.41 MB  | August 17 at 1:27:45 PM  |
+<!-- TABLE END -->
 
 ## Grammar
 
+<!-- TABLE START -->
 | Sno. | File Name                | Download Link                              | File Size | Created At              |
 |------|--------------------------|--------------------------------------------|-----------|-------------------------|
 | 01   | The Sentence             | [Download Link](https://shorturl.at/flqZ1) | 5.14 MB   | August 17 at 1:28:02 PM |
@@ -97,9 +104,11 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 | 16   | Reported Speech          | [Download Link](https://shorturl.at/djtY6) | 4.21 MB   | August 18 at 2:55:36 PM |
 | 17   | Word Power               | [Download Link](https://shorturl.at/bty37) | 6.43 MB   | August 18 at 2:55:59 PM |
 | 18   | Integrated Exercise      | [Download Link](https://shorturl.at/ty046) | 2.67 MB   | August 18 at 2:56:39 PM |
+<!-- TABLE END -->
 
 ## Writing 
 
+<!-- TABLE START -->
 | Sno. | File Name         | Download Link                              | File Size | Created At              |
 |------|-------------------|--------------------------------------------|-----------|-------------------------|
 | 01   | Notice            | [Download Link](https://shorturl.at/JOV35) | 3.83 MB   | August 18 at 2:57:18 PM |
@@ -110,3 +119,4 @@ The freshly updated 2022-23 edition of "All in One English for Class 6" is a sel
 | 06   | Diary Entry       | [Download Link](https://shorturl.at/dklR8) | 1.58 MB   | August 18 at 3:51:15 PM |
 | 07   | Story             | [Download Link](https://shorturl.at/bruvZ) | 6.72 MB   | August 18 at 3:51:25 PM |
 | 08   | Article           | [Download Link](https://shorturl.at/kpw07) | 7.95 MB   | August 18 at 3:51:37 PM |
+<!-- TABLE END -->

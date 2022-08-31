@@ -25,4 +25,4 @@ TABLE OF CONTENT:
 
  Some Basic Concepts of Chemistry, Atomic Structure, Periodic Classification and Periodic Properties, Chemical Bonding, States of Matter, Chemical and Ionic Equilibrium, Thermodynamics and Thermochemistry, Solid State, Solutions and Colligative Properties, Electrochemistry, Chemical Kinetics, Nuclear Chemistry, Surface Chemistry, s-block Elements, p-block Elements I, p-block Elements II, Transition and Inner-Transition Elements, Coordination Compounds, Extraction of Metals, Qualitative Analysis, Organic Chemistry Basics, Hydrocarbons, Alkyl Halides, Alcohols and Ethers, Aldehydes and Ketones, Carboxylic Acids and their Derivatives, Aliphatic Compounds Containing Nitrogen, Benzene and Alkyl Benzene, Aromatic Compounds Containing Nitrogen, Aryl Halides and Phenols, Aromatic Aldehydes, Ketones and Acids, Biomolecules and Chemistry in Everyday Life, JEE Advanced Solved Paper 2019.
 
-18[Download PDF](https://drive.google.com/uc?export=download&id=115wXlA7t9E5o-U89owyCp_hapJ6Og9wj)
+[Download PDF](https://drive.google.com/uc?export=download&id=115wXlA7t9E5o-U89owyCp_hapJ6Og9wj)

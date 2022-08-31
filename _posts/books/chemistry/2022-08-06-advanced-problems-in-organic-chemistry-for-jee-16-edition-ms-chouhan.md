@@ -6,14 +6,6 @@ author: sortedcord
 layout: post
 guid: 'http://localhost/wordpress/?p=2469'
 permalink: /2022/08/06/advanced-problems-in-organic-chemistry-for-jee-16-edition-ms-chouhan/
-nectar_blog_post_view_count:
-    - '3'
-powerkit_share_buttons_transient_facebook:
-    - '1659931866'
-powerkit_share_buttons_transient_pinterest:
-    - '1659931866'
-fifu_image_url:
-    - 'https://images-na.ssl-images-amazon.com/images/I/91nSp6E9NYL.jpg'
 image: 'https://images-na.ssl-images-amazon.com/images/I/91nSp6E9NYL.jpg'
 categories:
     - 'IIT ADVANCED'

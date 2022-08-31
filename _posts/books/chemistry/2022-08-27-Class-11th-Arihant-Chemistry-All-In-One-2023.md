@@ -19,6 +19,7 @@ tags:
 
 ---
 
+<!-- TABLE START -->
 | S.No. | File name                               | Download Link                              | File Size | Created At                    |
 |-------|-----------------------------------------|--------------------------------------------|-----------|-------------------------------|
 | 1     | Full Book                               | [Download Link](https://shorturl.at/efxZ4) | 199.73 MB | August 27, 2022 at 5:14:44 PM |
@@ -34,3 +35,4 @@ tags:
 | 11    | Amines                                  | [Download Link](https://shorturl.at/jsKPQ) | 17.56 MB  | August 27, 2022 at 8:16:07 PM |
 | 12    | Biomolecules                            | [Download Link](https://shorturl.at/iKX15) | 13.44 MB  | August 27, 2022 at 8:16:32 PM |
 | 13    | Sample Papers                           | [Download Link](https://shorturl.at/aduw8) | 18.92 MB  | August 27, 2022 at 8:17:07 PM |
+<!-- TABLE END -->

@@ -15,6 +15,7 @@ tags:
     - JEE
 ---
 
+<!-- TABLE START -->
 | Folder Name               | File name                                  | Download Link (Server 1)                   | Download Link (Server 2)                   | File Size | Created At              |
 |---------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|-----------|-------------------------|
 | Inorganic-1               | Cengage Inorganic Chemistry-1 Solution     | [Download Link](https://shorturl.at/nwx27) | [Download Link](https://shorturl.at/blR28) | 48.21 MB  | August 18 at 8:41:08 PM |
@@ -37,3 +38,4 @@ tags:
 | Physical-2                | Cengage Physical Chemistry-2 DPP Solution  | [Download Link](https://shorturl.at/aQ038) | [Download Link](https://shorturl.at/glmvY) | 30.82 MB  | August 18 at 8:41:46 PM |
 | Physical-2                | Cengage Physical Chemistry-2 DPP           | [Download Link](https://shorturl.at/bgIM0) | [Download Link](https://shorturl.at/fhJR7) | 46.95 MB  | August 18 at 8:41:46 PM |
 | Physical-2                | Cengage Physical Chemistry-2               | [Download Link](https://shorturl.at/cejt7) | [Download Link](https://shorturl.at/ehiPV) | 331.87 MB | August 18 at 8:41:48 PM |
+<!-- TABLE END -->
