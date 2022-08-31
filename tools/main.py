@@ -32,6 +32,7 @@ def fetch_items(folder_id):
 
     items = results.get('files', [])
     logger.success("Items Fetched")
+    print(items)
     return items
 
 
@@ -135,6 +136,7 @@ def itemtotable(items):
     logger.info("Table Headers set as {}".format(headers))
 
     table = []
+    print(items)
 
     for item in items:
         table.append([item['serial'], item['name'], "[Download Link](" +
@@ -152,9 +154,34 @@ def itemtotable(items):
     return table
 
 
-def generate_table(folder_id, out=None):
+def generate_table(folder_id, out=None, subdirs=None):
 
     raw_items = fetch_items(folder_id)
+    if subdirs is None:
+        _ = input("Is this full of sub directories which contain files to be downloaded? (y/n)")
+        if _ == "y":
+            tables = ""
+            for item in raw_items:
+                raw_items = fetch_items(item['id'])
+                if len(raw_items) < 1:
+                    continue
+                items = process_items(raw_items)
+                table = itemtotable(items)
+                tables += f"## {item['name']} \n" + table + "\n"
+            
+            if out is None:
+                choice = input("Do you want to save the table to a file? (y/n)")
+                if choice == "y":
+                    out = input("Enter the name of the file: ")
+                    with open(out, 'w') as file:
+                        file.write(tables)
+                        logger.success(f"Table saved to {out}")     
+            if out == "return":
+                return tables
+            
+            return None
+
+
     items = process_items(raw_items)
     table = itemtotable(items)
 
