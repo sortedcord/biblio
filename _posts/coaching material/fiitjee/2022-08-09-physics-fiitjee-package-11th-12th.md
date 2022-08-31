@@ -15,7 +15,7 @@ tags:
     - Physics
     - 'Coaching Material'
     - JEE
-    - future
+    - doing
 ---
 
 | S.No. | Folder Name | File name                | Download Link                              | File Size | Created At                     |
