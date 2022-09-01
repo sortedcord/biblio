@@ -1,5 +1,8 @@
 ---
+folder: 1J_PwTrsM_NBqNs2DSRzSTMH1wyuk7kDr
 id: 566
+path: G:/My Drive/Material/Books/MTG Foundation Class 6th Science
+pages: 886
 title: 'MTG Foundation Course Class 6'
 date: '2022-08-18 16:57:19 +0530'
 author: sortedcord
@@ -32,11 +35,17 @@ MTG's Foundation course for Science is the best academic textbook based upon the
 
 # Contents
 
+<!-- PROGRESS START -->
+Current Progress: [ ███····································· ] 8%:Completed Uploading 75/886 pages
+<!-- PROGRESS END -->
+
 - [Cover and Preface](https://drive.google.com/uc?id=1RvNwFeZZEFL7M8BSllnKSMY9Wm-bj6zL&export=download)
 
-## Physics
-
-| Sno. | File name                           | Download Link                              | File Size | Created At                    |
-|------|-------------------------------------|--------------------------------------------|-----------|-------------------------------|
-| 01   | Motion and Measurement of Distances | [Download Link](https://shorturl.at/klt47) | 1.73 MB   | August 18, 2022 at 4:53:13 PM |
-| 02   | Light, Shadows and Reflection       | [Download Link](https://shorturl.at/bEQY2) | 1.82 MB   | August 20, 2022 at 5:40:59 PM |
+<!-- TABLE START -->
+|   S.No. | File Name                           | Download Link                              | File Size   | Created At                     |
+|---------|-------------------------------------|--------------------------------------------|-------------|--------------------------------|
+|      00 | Cover                               | [Download Link](https://shorturl.at/hrSV3) | 953.4 KB    | August 18, 2022 at 11:22:19 AM |
+|      01 | Motion and Measurement of Distances | [Download Link](https://shorturl.at/vABDO) | 1.7 MB      | August 18, 2022 at 11:23:13 AM |
+|      02 | Light, Shadows and Reflection       | [Download Link](https://shorturl.at/OSV05) | 1.8 MB      | August 20, 2022 at 12:10:59 PM |
+|      03 | Electricity and Circuits            | [Download Link](https://shorturl.at/ace39) | 3.4 MB      | August 28, 2022 at 10:40:14 AM |
+<!-- TABLE END -->

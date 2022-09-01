@@ -1,6 +1,8 @@
 ---
 folder: 1ItpYR_1CEs1W_c7iNhBVjvqj_fHZeyyM
 id: 961
+path: G:/My Drive/Material/Books/Chemistry/MS Chauhan Elementary Problems
+pages: 536
 title: 'Elementary Problems in Organic Chemistry MS Chouhan'
 date: '2022-08-25 16:48:23 +0530'
 author: sortedcord
@@ -30,6 +32,10 @@ tags:
     - doing
 
 ---
+
+<!-- PROGRESS START -->
+Current Progress: [ ██████████████████████████·············· ] 67%:Completed Uploading 362/536 pages
+<!-- PROGRESS END -->
 
 <!-- TABLE START -->
 |   S.No. | File Name                            | Download Link                              | File Size   | Created At                     |

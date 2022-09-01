@@ -1,28 +1,39 @@
+import os
+import time
 from tabulate import tabulate
 import pickle as pk
 from rich.progress import track
-from utils import createBrowser, shortenlink, get_gdrive_service, menugen
-from utils import clearconsole as clr
+from utils import createBrowser, shortenlink, get_gdrive_service
 from utils import convert_bytes, convert_date
+# from utils import clearconsole as clr
 from loguru import logger
 from rich.progress import Progress
+import codecs
+
+from cursesmenu import CursesMenu
+from cursesmenu.items import FunctionItem
+
+import PyPDF2
 
 
 logger.debug("Loading Imports")
 logger.debug("All Imports Loaded")
 
 VERSION = '0.0.1'
+logger.debug("Createing GDrive API Service Object")
+try:
+    service = get_gdrive_service()
+except:
+    logger.error("Failed to create GDrive API Service Object")
+    quit()
+else:
+    logger.success("GDrive API Service Object Created")
+browser = False
 
+def clr():
+    pass
 
 def fetch_items(folder_id):
-    logger.debug("Createing GDrive API Service Object")
-    try:
-        service = get_gdrive_service()
-    except:
-        logger.error("Failed to create GDrive API Service Object")
-        quit()
-    else:
-        logger.success("GDrive API Service Object Created")
 
     q = f"parents = '{folder_id}'"
 
@@ -32,7 +43,6 @@ def fetch_items(folder_id):
 
     items = results.get('files', [])
     logger.success("Items Fetched")
-    print(items)
     return items
 
 
@@ -59,20 +69,12 @@ def check_id(id):
 def process_items(items):
     new_items = []
 
-    # Create browser object
-    logger.debug("Creating Browser Object")
-    try:
-        browser = createBrowser(True)
-    except:
-        logger.error("Failed to create Browser Object")
-        quit()
-    else:
-        logger.success("Browser Object Created")
+    
 
     with Progress() as progress:
-        task1 = progress.add_task("[blue]Downloading...", total=len(items))
+        task1 = progress.add_task("[blue]Fetching...", total=len(items))
         for item in items:
-
+            clr()
             logger.debug(f"Processing item: {item['name']}")
 
             # Format information
@@ -87,7 +89,7 @@ def process_items(items):
                 if " - " in file_name:
                     file_name, serial = file_name.split(
                         " - ")[-1], file_name.split(" ")[0]
-                    item['serial'] = serial.strip()
+                    item['serial'] = str(serial).strip()
                     logger.info(f"File serial set as {serial}")
                 file_name = file_name.replace(".pdf", "")
                 item['name'] = file_name
@@ -99,6 +101,17 @@ def process_items(items):
             if check_id(item['id']):
                 item['link'] = check_id(item['id'])
             else:
+                global browser
+                if not browser:
+                    # Create browser object
+                    logger.debug("Creating Browser Object")
+                    try:
+                        browser = createBrowser(True)
+                    except:
+                        logger.error("Failed to create Browser Object")
+                        quit()
+                    else:
+                        logger.success("Browser Object Created")
                 # Shorten Link
                 logger.debug(f"Shortening Link for {item['name']}")
                 try:
@@ -122,8 +135,8 @@ def process_items(items):
                     logger.success("ids.dat file created and updated")
                 progress.update(task1, advance=1)
 
-
-    browser.quit()
+    if browser:
+        browser.quit()
     logger.debug("Browser Object Closed")
     return new_items
 
@@ -136,11 +149,14 @@ def itemtotable(items):
     logger.info("Table Headers set as {}".format(headers))
 
     table = []
-    print(items)
-
-    for item in items:
-        table.append([item['serial'], item['name'], "[Download Link](" +
-                     item['link']+")", item['size'], item['date']])
+    try:
+        for item in items:
+            table.append([item['serial'], item['name'], "[Download Link](" +
+                        item['link']+")", item['size'], item['date']])
+    except Exception as E:
+        if 'serial' in E:
+            logger.error("Serial Number not found")
+        time.sleep(5)
 
     logger.debug("Tabulating Table")
     try:
@@ -153,12 +169,45 @@ def itemtotable(items):
 
     return table
 
+def count_pages(item):
+    pages = 0
+    if os.path.exists(item):
+        if os.path.isdir(item):
+            for item_ in os.listdir(item):
+                pages += count_pages(f"{item}/{item_}")
+        else:
+            if ".pdf" in item:
+                with open(item, 'rb') as file:
+                    pdf = PyPDF2.PdfFileReader(file)
+                    pages = pdf.numPages
+    return pages
 
-def generate_table(folder_id, out=None, subdirs=None):
+def get_upload_progress(folder_path, pages):
+
+    uploaded = count_pages(folder_path)
+    
+    progress = int((uploaded/pages)*100)
+    progress_str = "Current Progress: [ "
+    for i in range(0, 40):
+        if progress//2.5 > i:
+            progress_str += "█"
+        else:
+            progress_str += "·"
+
+    progress_str += f" ] {progress}%:Completed Uploading {uploaded}/{pages} pages"
+
+    return (progress_str, uploaded, progress)
+
+
+def generate_table(folder_id=None, out=None, subdirs=None):
+
+    if folder_id is None:
+        folder_id = input("Enter Folder ID: ")
 
     raw_items = fetch_items(folder_id)
     if subdirs is None:
-        _ = input("Is this full of sub directories which contain files to be downloaded? (y/n)")
+        _ = input(
+            "Is this full of sub directories which contain files to be downloaded? (y/n)")
         if _ == "y":
             tables = ""
             for item in raw_items:
@@ -168,19 +217,19 @@ def generate_table(folder_id, out=None, subdirs=None):
                 items = process_items(raw_items)
                 table = itemtotable(items)
                 tables += f"## {item['name']} \n" + table + "\n"
-            
+
             if out is None:
-                choice = input("Do you want to save the table to a file? (y/n)")
+                choice = input(
+                    "Do you want to save the table to a file? (y/n)")
                 if choice == "y":
                     out = input("Enter the name of the file: ")
-                    with open(out, 'w') as file:
+                    with codecs.open(out, 'w', "utf-8") as file:
                         file.write(tables)
-                        logger.success(f"Table saved to {out}")     
+                        logger.success(f"Table saved to {out}")
             if out == "return":
                 return tables
-            
-            return None
 
+            return None
 
     items = process_items(raw_items)
     table = itemtotable(items)
@@ -188,7 +237,7 @@ def generate_table(folder_id, out=None, subdirs=None):
     if out is None:
         choice = input("Do you want to save the table to a file? (y/n): ")
         if choice == 'y':
-            with open('table.md', 'w') as file:
+            with codecs.open('table.md', 'w', 'utf-8') as file:
                 file.write(table)
                 print("Table saved to table.md")
 
@@ -196,11 +245,25 @@ def generate_table(folder_id, out=None, subdirs=None):
         return table
 
 
-def updateFile(out):
+def updateFile(out=None):
+
+    # check if tools.dat exists
+    if os.path.exists('tools.dat'):
+        with open('tools.dat', 'rb') as file:
+            recent_files = pk.load(file)
+            recent_files.insert(0, "Update new file")
+
+    out = CursesMenu.get_selection(recent_files)
+    if out != 0:
+        out = recent_files[out]
+
+    if out is None or out == 0:
+        out = input("Enter the name of the file: ")
+
     logger.debug("Reading File {}".format(out))
 
     try:
-        with open(out, 'r') as mdfile:
+        with codecs.open(out, 'r', "utf-8") as mdfile:
             content = mdfile.readlines()
     except:
         logger.error("Failed to read file {}".format(out))
@@ -224,7 +287,7 @@ def updateFile(out):
     table = generate_table(folder_id, out="return")
 
     logger.debug("Updating File {}".format(out))
-    with open(out, 'r') as file:
+    with codecs.open(out, 'r', "utf-8") as file:
         content = file.read()
         try:
             content = content.split("<!-- TABLE START -->")[0] + "<!-- TABLE START -->\n" + \
@@ -236,9 +299,81 @@ def updateFile(out):
         else:
             logger.success("Table Inserted")
 
-    with open(out, 'w') as file:
-        file.write(content)
-        logger.success("File {} updated".format(out))
+    # Update progress
+
+    clr()
+    _ = input("Do you want to update progress (y/n)")
+
+    if _ == "y":
+        logger.debug(
+            "Searching for folder path and total number of pages in file")
+
+        path_prop, page_prop = False, False
+
+        for line in content.split("\n"):
+            clr()
+            logger.debug(f"Searching for folder path in {line}")
+            if "path: " in line:
+                logger.debug(f"Found folder path in {line}")
+                folder_path = line.split("path: ")[1]
+                path_prop = True
+            if "pages: " in line:
+                logger.debug(f"Found total number of pages in {line}")
+                pages = line.split("pages: ")[1]
+                page_prop = True
+            if path_prop and page_prop:
+                logger.success("Found folder path and total number of pages")
+                break
+
+        logger.debug("Checking a few conditions")
+        if not path_prop:
+            clr()
+            logger.warning("Folder path not found in file. enter it manually")
+            folder_path = input("Enter folder path: ")
+        if not page_prop:
+            clr()
+            logger.warning(
+                "Total number of pages not found in file. enter it manually")
+            pages = input("Enter total number of pages: ")
+
+        logger.debug("Checking for file availability")
+        logger.info(f"File set as {folder_path}")
+
+        if os.path.exists(str(folder_path).strip()):
+            logger.debug("Folder path found on device")
+
+            try:
+                logger.info(folder_path[:-1])
+                cont = get_upload_progress(str(folder_path).strip(), int(pages))
+            except Exception as e:
+                print(e)
+                time.sleep(5)
+            logger.success("Upload progress found")
+            print(cont)
+            content = content.split("<!-- PROGRESS START -->")[0] + "<!-- PROGRESS START -->\n" + cont[0] + "\n<!-- PROGRESS END -->" + content.split("<!-- PROGRESS END -->")[-1]
+            logger.success("Splicing successful")
+        else:
+            logger.error("Invalid file path. Aborting")
+
+    print(out)
+    try:
+        with codecs.open(out, 'w', "utf-8") as file:
+            file.write(content)
+            logger.success(f"File {out} updated")
+    except Exception as e:
+        print(e)
+        time.sleep(10)
+
+
+    try:
+        with open("tools.dat", "rb") as f:
+            recent_files = pk.load(f)
+    except:
+        recent_files = []
+    if out not in recent_files:
+        recent_files.append(out)
+        with open("tools.dat", "wb") as f:
+            pk.dump(recent_files, f)
 
 
 def main():
@@ -256,28 +391,34 @@ def main():
             ids = {}
             pk.dump(ids, file)
             logger.success("ids.dat file created")
-    
-    options = ["Generate Table", "Update File", "Quit"]
-    choice = menugen(options)
 
-    if choice == 1:
-        # Some code
-        f_id = input("Enter folder id: ")
-        generate_table(f_id)
-    elif choice == 2:
-        updateFile(input("Enter file path along with name: "))
-    elif choice == 3:
-        quit()
+    # Show menu
+    logger.debug("Loading Menu")
+    menu = CursesMenu(f"Biblio Tools {VERSION}", "Main Menu")
+
+    gen_table_item = FunctionItem("Generate Table", generate_table)
+    menu.items.append(gen_table_item)
+
+    update_item = FunctionItem("Update File", updateFile)
+    menu.items.append(update_item)
+
+    test_page = FunctionItem("Check Page Progress Function", get_upload_progress, [
+                             "G:/My Drive/Material/Books/MTG Foundation Class 6th Science", 886])
+    menu.items.append(test_page)
+
+    menu.show()
+
+    clr()
 
 
 def show_ids():
     with open("ids.dat", 'rb') as file:
         ids = pk.load(file)
-    
+
     for key, value in ids.items():
         print(f"{key} : {value}")
+
 
 if __name__ == "__main__":
     main()
     # show_ids()
-
