@@ -151,8 +151,8 @@ def itemtotable(items):
     table = []
     try:
         for item in items:
-            table.append([item['serial'], item['name'], "[Download Link](" +
-                        item['link']+")", item['size'], item['date']])
+            table.append([item['serial'].strip(), item['name'], "[Download Link](" +
+                        item['link']+")", item['size'].strip(), item['date']])
     except Exception as E:
         if 'serial' in E:
             logger.error("Serial Number not found")

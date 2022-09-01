@@ -27,16 +27,21 @@ Current Progress: [ █████······················�
 
 <!-- TABLE START -->
 ## Phase 2 
-|   S.No. | File Name                | Download Link                              | File Size   | Created At                     |
-|---------|--------------------------|--------------------------------------------|-------------|--------------------------------|
-|      01 | Conservation Of Momentum | [Download Link](https://shorturl.at/gjlST) | 52.2 MB     | August 10, 2022 at 05:14:27 PM |
+
+| S.No. | File Name                | Download Link                              | File Size | Created At                     |
+|-------|--------------------------|--------------------------------------------|-----------|--------------------------------|
+| 01    | Conservation Of Momentum | [Download Link](https://shorturl.at/gjlST) | 52.2 MB   | August 10, 2022 at 05:14:27 PM |
+
 ## Phase 4 
-|   S.No. | File Name      | Download Link                              | File Size   | Created At                    |
-|---------|----------------|--------------------------------------------|-------------|-------------------------------|
-|      01 | Electrostatics | [Download Link](https://shorturl.at/giLN5) | 18.5 MB     | April 27, 2022 at 09:26:42 AM |
+
+| S.No. | File Name      | Download Link                              | File Size | Created At                    |
+|-------|----------------|--------------------------------------------|-----------|-------------------------------|
+| 01    | Electrostatics | [Download Link](https://shorturl.at/giLN5) | 18.5 MB   | April 27, 2022 at 09:26:42 AM |
+
 ## Phase 5 
-|   S.No. | File Name                                              | Download Link                              | File Size   | Created At                     |
-|---------|--------------------------------------------------------|--------------------------------------------|-------------|--------------------------------|
-|      01 | Electromagnetic Induction FIITJEE Physics Package 12th | [Download Link](https://shorturl.at/gqrx1) | 4.6 MB      | August 31, 2022 at 05:52:22 AM |
+
+| S.No. | File Name                                              | Download Link                              | File Size | Created At                     |
+|-------|--------------------------------------------------------|--------------------------------------------|-----------|--------------------------------|
+| 01    | Electromagnetic Induction FIITJEE Physics Package 12th | [Download Link](https://shorturl.at/gqrx1) | 4.6 MB    | August 31, 2022 at 05:52:22 AM |
 
 <!-- TABLE END -->
