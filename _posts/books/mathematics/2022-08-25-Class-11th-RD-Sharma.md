@@ -27,6 +27,7 @@ This textbook of Mathematics has been written by RD Sharma is the best selection
 - Help the students to learn more about linear equations and quadratic equations.
 
 <!-- TABLE START -->
+
 | S.No. | File Name                                      | Download Link                              | File Size | Created At                     |
 |-------|------------------------------------------------|--------------------------------------------|-----------|--------------------------------|
 | 00    | Cover                                          | [Download Link](https://shorturl.at/eiXZ0) | 197.7 KB  | August 25, 2022 at 06:35:04 AM |
@@ -53,4 +54,5 @@ This textbook of Mathematics has been written by RD Sharma is the best selection
 | 21    | Some Special Series                            | [Download Link](https://shorturl.at/bEFU4) | 7.7 MB    | August 28, 2022 at 05:17:39 AM |
 | 22    | Brief Review of Cartesian System               | [Download Link](https://shorturl.at/LMZ49) | 11.4 MB   | August 28, 2022 at 05:19:27 AM |
 | 23    | The Straigh Lines                              | [Download Link](https://shorturl.at/hwCDM) | 7.1 MB    | August 28, 2022 at 05:47:50 AM |
+
 <!-- TABLE END -->

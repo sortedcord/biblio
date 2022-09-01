@@ -290,8 +290,8 @@ def updateFile(out=None):
     with codecs.open(out, 'r', "utf-8") as file:
         content = file.read()
         try:
-            content = content.split("<!-- TABLE START -->")[0] + "<!-- TABLE START -->\n" + \
-                table + "\n<!-- TABLE END -->" + \
+            content = content.split("<!-- TABLE START -->")[0] + "<!-- TABLE START -->\n\n" + \
+                + table + "\n\n<!-- TABLE END -->" + \
                 content.split("<!-- TABLE END -->")[1]
         except:
             logger.error("Could not find table start and end markers")

@@ -42,10 +42,12 @@ Current Progress: [ ███·························�
 - [Cover and Preface](https://drive.google.com/uc?id=1RvNwFeZZEFL7M8BSllnKSMY9Wm-bj6zL&export=download)
 
 <!-- TABLE START -->
-|   S.No. | File Name                           | Download Link                              | File Size   | Created At                     |
-|---------|-------------------------------------|--------------------------------------------|-------------|--------------------------------|
-|      00 | Cover                               | [Download Link](https://shorturl.at/hrSV3) | 953.4 KB    | August 18, 2022 at 11:22:19 AM |
-|      01 | Motion and Measurement of Distances | [Download Link](https://shorturl.at/vABDO) | 1.7 MB      | August 18, 2022 at 11:23:13 AM |
-|      02 | Light, Shadows and Reflection       | [Download Link](https://shorturl.at/OSV05) | 1.8 MB      | August 20, 2022 at 12:10:59 PM |
-|      03 | Electricity and Circuits            | [Download Link](https://shorturl.at/ace39) | 3.4 MB      | August 28, 2022 at 10:40:14 AM |
+
+| S.No. | File Name                           | Download Link                              | File Size | Created At                     |
+|-------|-------------------------------------|--------------------------------------------|-----------|--------------------------------|
+| 00    | Cover                               | [Download Link](https://shorturl.at/hrSV3) | 953.4 KB  | August 18, 2022 at 11:22:19 AM |
+| 01    | Motion and Measurement of Distances | [Download Link](https://shorturl.at/vABDO) | 1.7 MB    | August 18, 2022 at 11:23:13 AM |
+| 02    | Light, Shadows and Reflection       | [Download Link](https://shorturl.at/OSV05) | 1.8 MB    | August 20, 2022 at 12:10:59 PM |
+| 03    | Electricity and Circuits            | [Download Link](https://shorturl.at/ace39) | 3.4 MB    | August 28, 2022 at 10:40:14 AM |
+
 <!-- TABLE END -->
