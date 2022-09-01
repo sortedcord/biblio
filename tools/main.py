@@ -160,7 +160,7 @@ def itemtotable(items):
 
     logger.debug("Tabulating Table")
     try:
-        table = tabulate(table, headers, tablefmt='github')
+        table = tabulate(table, headers, tablefmt='github', colalign=("left",))
     except:
         logger.error("Failed to Tabulate Table")
         quit()
@@ -178,7 +178,7 @@ def count_pages(item):
         else:
             if ".pdf" in item:
                 with open(item, 'rb') as file:
-                    pdf = PyPDF2.PdfFileReader(file)
+                    pdf = PyPDF2.PdfFileReader(file, strict=False)
                     pages = pdf.numPages
     return pages
 
