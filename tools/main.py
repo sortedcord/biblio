@@ -106,7 +106,7 @@ def process_items(items):
                     # Create browser object
                     logger.debug("Creating Browser Object")
                     try:
-                        browser = createBrowser(True)
+                        browser = createBrowser(False)
                     except:
                         logger.error("Failed to create Browser Object")
                         quit()
@@ -216,7 +216,7 @@ def generate_table(folder_id=None, out=None, subdirs=None):
                     continue
                 items = process_items(raw_items)
                 table = itemtotable(items)
-                tables += f"## {item['name']} \n" + table + "\n"
+                tables += f"## {item['name']} \n\n" + table + "\n\n"
 
             if out is None:
                 choice = input(
@@ -290,11 +290,14 @@ def updateFile(out=None):
     with codecs.open(out, 'r', "utf-8") as file:
         content = file.read()
         try:
-            content = content.split("<!-- TABLE START -->")[0] + "<!-- TABLE START -->\n\n" + \
+            print(content.split("<!-- TABLE START -->")[0],  content.split("<!-- TABLE END -->")[1])
+            content = content.split("<!-- TABLE START -->")[0] + "<!-- TABLE START -->\n\n" \
                 + table + "\n\n<!-- TABLE END -->" + \
                 content.split("<!-- TABLE END -->")[1]
-        except:
+        except Exception as e:
             logger.error("Could not find table start and end markers")
+            print(e)
+            time.sleep(5)
             quit()
         else:
             logger.success("Table Inserted")

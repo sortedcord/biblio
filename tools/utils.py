@@ -115,7 +115,7 @@ def createBrowser(headless):
     options.add_argument(
         "user-data-dir=C:/Users/Administrator/AppData/Local/Google/Chrome/User Data/")
     options.add_argument('--profile-directory=Profile 1')
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    # options.add_experimental_option('excludeSwitches', ['enable-logging'])
     options.add_argument("--disable-web-security")
 
     if headless:
