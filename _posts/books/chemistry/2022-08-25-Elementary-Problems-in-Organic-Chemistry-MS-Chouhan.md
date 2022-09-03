@@ -34,7 +34,7 @@ tags:
 ---
 
 <!-- PROGRESS START -->
-Current Progress: [ ██████████████████████████·············· ] 67%:Completed Uploading 362/536 pages
+Current Progress: [ ████████████████████████████············ ] 72%:Completed Uploading 386/536 pages
 <!-- PROGRESS END -->
 
 <!-- TABLE START -->
@@ -45,6 +45,6 @@ Current Progress: [ ████████████████████
 | 01    | Some Basic Principles and Techniques | [Download Link](https://shorturl.at/opwDH) | 43.8 MB   | August 25, 2022 at 11:14:24 AM |
 | 02    | Hydrocarbons                         | [Download Link](https://shorturl.at/bGJP7) | 3.5 MB    | August 26, 2022 at 09:01:10 AM |
 | 03    | Haloalkanes and Haloarenes           | [Download Link](https://shorturl.at/gIR05) | 14.5 MB   | August 27, 2022 at 03:28:00 PM |
-| 04    | Alcohols, Phenols and Ethers         | [Download Link](https://shorturl.at/ozARS) | 1.5 MB    | August 28, 2022 at 12:07:47 PM |
+| 04    | Alcohols, Phenols and Ethers         | [Download Link](https://shorturl.at/ozARS) | 3.5 MB    | August 28, 2022 at 12:07:47 PM |
 
 <!-- TABLE END -->
