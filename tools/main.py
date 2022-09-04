@@ -24,8 +24,10 @@ VERSION = '0.0.1'
 logger.debug("Createing GDrive API Service Object")
 try:
     service = get_gdrive_service()
-except:
+except Exception as E:
     logger.error("Failed to create GDrive API Service Object")
+    if "Token has expired" in str(E):
+        logger.error("Token has expired, please delete token.pickle and try again")
     quit()
 else:
     logger.success("GDrive API Service Object Created")

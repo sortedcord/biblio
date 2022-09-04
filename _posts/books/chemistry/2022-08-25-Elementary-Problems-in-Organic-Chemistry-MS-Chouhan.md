@@ -34,17 +34,18 @@ tags:
 ---
 
 <!-- PROGRESS START -->
-Current Progress: [ ████████████████████████████············ ] 72%:Completed Uploading 386/536 pages
+Current Progress: [ ██████████████████████████████·········· ] 77%:Completed Uploading 418/536 pages
 <!-- PROGRESS END -->
 
 <!-- TABLE START -->
 
-| S.No. | File Name                            | Download Link                              | File Size | Created At                     |
-|-------|--------------------------------------|--------------------------------------------|-----------|--------------------------------|
-| 00    | Cover                                | [Download Link](https://shorturl.at/CDKL1) | 4.2 MB    | August 12, 2022 at 05:18:39 PM |
-| 01    | Some Basic Principles and Techniques | [Download Link](https://shorturl.at/opwDH) | 43.8 MB   | August 25, 2022 at 11:14:24 AM |
-| 02    | Hydrocarbons                         | [Download Link](https://shorturl.at/bGJP7) | 3.5 MB    | August 26, 2022 at 09:01:10 AM |
-| 03    | Haloalkanes and Haloarenes           | [Download Link](https://shorturl.at/gIR05) | 14.5 MB   | August 27, 2022 at 03:28:00 PM |
-| 04    | Alcohols, Phenols and Ethers         | [Download Link](https://shorturl.at/ozARS) | 3.5 MB    | August 28, 2022 at 12:07:47 PM |
+| S.No. | File Name                               | Download Link                              | File Size | Created At                        |
+|-------|-----------------------------------------|--------------------------------------------|-----------|-----------------------------------|
+| 00    | Cover                                   | [Download Link](https://shorturl.at/CDKL1) | 4.2 MB    | August 12, 2022 at 05:18:39 PM    |
+| 01    | Some Basic Principles and Techniques    | [Download Link](https://shorturl.at/opwDH) | 43.8 MB   | August 25, 2022 at 11:14:24 AM    |
+| 02    | Hydrocarbons                            | [Download Link](https://shorturl.at/bGJP7) | 3.5 MB    | August 26, 2022 at 09:01:10 AM    |
+| 03    | Haloalkanes and Haloarenes              | [Download Link](https://shorturl.at/gIR05) | 14.5 MB   | August 27, 2022 at 03:28:00 PM    |
+| 04    | Alcohols, Phenols and Ethers            | [Download Link](https://shorturl.at/ozARS) | 3.5 MB    | August 28, 2022 at 12:07:47 PM    |
+| 05    | Aldehydes, Ketones and Carboxylic Acids | [Download Link](https://shorturl.at/ABFO3) | 1.1 MB    | September 04, 2022 at 03:08:16 PM |
 
 <!-- TABLE END -->
