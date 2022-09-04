@@ -107,7 +107,7 @@ def process_items(items):
                     # Create browser object
                     logger.debug("Creating Browser Object")
                     try:
-                        browser = createBrowser(False)
+                        browser = createBrowser(True)
                     except:
                         logger.error("Failed to create Browser Object")
                         quit()
@@ -423,6 +423,9 @@ def main():
     test_page = FunctionItem("Check Page Progress Function", get_upload_progress, [
                              "G:/My Drive/Material/Books/MTG Foundation Class 6th Science", 886])
     menu.items.append(test_page)
+
+    genfile_item = FunctionItem("Generate File", genfile)
+    menu.items.append(genfile_item)
 
     menu.show()
     clr()
