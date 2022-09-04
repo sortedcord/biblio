@@ -427,6 +427,9 @@ def main():
     genfile_item = FunctionItem("Generate File", genfile)
     menu.items.append(genfile_item)
 
+    read_id_item = FunctionItem("Read ids.dat", show_ids)
+    menu.items.append(read_id_item)
+
     menu.show()
     clr()
 
@@ -437,6 +440,8 @@ def show_ids():
 
     for key, value in ids.items():
         print(f"{key} : {value}")
+    
+    _ = input("Press any key to continue")
 
 
 if __name__ == "__main__":

@@ -29,7 +29,7 @@ def generic_meta(progress=None):
         print(E)
 
     # generate date in the format as "2022-08-25 16:48:23 +0530"
-    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S %z")
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S +0530")
 
     author = dinput("Enter author name: ", "Anonymous")
     layout = "post"

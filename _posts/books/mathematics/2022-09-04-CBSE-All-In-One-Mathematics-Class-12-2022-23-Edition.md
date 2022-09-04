@@ -4,7 +4,7 @@ pages: 785
 path: G:\My Drive\Material\Books\Math\Arihant All In One Class 12th 2023
 id: 2943
 title: 'CBSE All In One Mathematics Class 12 2022-23 Edition'
-date: '2022-09-04 09:05:27 '
+date: '2022-09-04 09:05:27 +0530'
 author: sortedcord
 layout: post
 permalink: /2022/09/04/CBSE-All-In-One-Mathematics-Class-12-2022-23-Edition/
@@ -22,6 +22,15 @@ tags:
 
 ---
 
+# Full Book Downloads
+
+| S.No. | Servers                 | Download Link                              | File Size | Status    |
+|-------|-------------------------|--------------------------------------------|-----------|-----------|
+| 01    | Server 1 (Google Drive) | [Download Link](https://shorturl.at/doT58) | 125.3 MB  | Available |
+| 02    | Server 2 (Google Drive) | [Download Link](https://shorturl.at/aDFI7) | 125.3 MB  | Available |
+
+
+# Chapterwise Downloads
 <!-- TABLE START -->
 
 | S.No. | File Name                        | Download Link                              | File Size | Created At                        |
