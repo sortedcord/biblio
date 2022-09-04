@@ -23,16 +23,17 @@ tags:
 If you are studying chemistry then you must have wondered about the importance of chemistry in everyday life. Chemistry is the branch of science which deals with the investigation of the properties and changes of matter. From the way how our body exchanges oxygen to how our universe was created, all have a side of chemistry associated with it.
 
 <!-- PROGRESS START -->
-Current Progress: [ ████████································ ] 22%:Completed Uploading 245/1100 pages
+Current Progress: [ ██████████······························ ] 27%:Completed Uploading 298/1100 pages
 <!-- PROGRESS END -->
 
 <!-- TABLE START -->
 
 ## Phase 1 
 
-| S.No. | File Name                                  | Download Link                              | File Size | Created At                     |
-|-------|--------------------------------------------|--------------------------------------------|-----------|--------------------------------|
-| 01    | Stoichiometry Balancing of Redox Reactions | [Download Link](https://shorturl.at/FMXY8) | 3.7 MB    | August 08, 2022 at 05:39:03 PM |
+| S.No. | File Name                                  | Download Link                              | File Size | Created At                        |
+|-------|--------------------------------------------|--------------------------------------------|-----------|-----------------------------------|
+| 01    | Stoichiometry Balancing of Redox Reactions | [Download Link](https://shorturl.at/FMXY8) | 3.7 MB    | August 08, 2022 at 05:39:03 PM    |
+| 02    | Gaseuous State                             | [Download Link](https://shorturl.at/BNQY4) | 1.9 MB    | September 04, 2022 at 01:48:40 AM |
 
 ## Phase 2 
 

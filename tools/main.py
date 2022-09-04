@@ -5,6 +5,7 @@ import pickle as pk
 from rich.progress import track
 from utils import createBrowser, shortenlink, get_gdrive_service
 from utils import convert_bytes, convert_date
+from file_gen import genfile
 # from utils import clearconsole as clr
 from loguru import logger
 from rich.progress import Progress
@@ -30,8 +31,10 @@ else:
     logger.success("GDrive API Service Object Created")
 browser = False
 
+
 def clr():
     pass
+
 
 def fetch_items(folder_id):
 
@@ -68,8 +71,6 @@ def check_id(id):
 
 def process_items(items):
     new_items = []
-
-    
 
     with Progress() as progress:
         task1 = progress.add_task("[blue]Fetching...", total=len(items))
@@ -152,7 +153,7 @@ def itemtotable(items):
     try:
         for item in items:
             table.append([item['serial'].strip(), item['name'], "[Download Link](" +
-                        item['link']+")", item['size'].strip(), item['date']])
+                          item['link']+")", item['size'].strip(), item['date']])
     except Exception as E:
         if 'serial' in E:
             logger.error("Serial Number not found")
@@ -169,6 +170,7 @@ def itemtotable(items):
 
     return table
 
+
 def count_pages(item):
     pages = 0
     if os.path.exists(item):
@@ -182,10 +184,11 @@ def count_pages(item):
                     pages = pdf.numPages
     return pages
 
+
 def get_upload_progress(folder_path, pages):
 
     uploaded = count_pages(folder_path)
-    
+
     progress = int((uploaded/pages)*100)
     progress_str = "Current Progress: [ "
     for i in range(0, 40):
@@ -248,14 +251,23 @@ def generate_table(folder_id=None, out=None, subdirs=None):
 def updateFile(out=None):
 
     # check if tools.dat exists
+    logger.debug("Checking if tools.dat exists")
     if os.path.exists('tools.dat'):
+        logger.success("tools.dat exists")
         with open('tools.dat', 'rb') as file:
-            recent_files = pk.load(file)
-            recent_files.insert(0, "Update new file")
-
-    out = CursesMenu.get_selection(recent_files)
+            preferences = pk.load(file).copy()
+            recent_files = preferences['recent_files']
+            logger.debug("recent files loaded")
+    l = ["Update new file"] + list(recent_files)
+    print(l)
+    try:
+        out = CursesMenu.get_selection(l)
+    except Exception as E:
+        print(E)
+        time.sleep(5)
+        
     if out != 0:
-        out = recent_files[out]
+        out = recent_files[out-1]
 
     if out is None or out == 0:
         out = input("Enter the name of the file: ")
@@ -290,7 +302,8 @@ def updateFile(out=None):
     with codecs.open(out, 'r', "utf-8") as file:
         content = file.read()
         try:
-            print(content.split("<!-- TABLE START -->")[0],  content.split("<!-- TABLE END -->")[1])
+            print(content.split("<!-- TABLE START -->")
+                  [0],  content.split("<!-- TABLE END -->")[1])
             content = content.split("<!-- TABLE START -->")[0] + "<!-- TABLE START -->\n\n" \
                 + table + "\n\n<!-- TABLE END -->" + \
                 content.split("<!-- TABLE END -->")[1]
@@ -347,13 +360,16 @@ def updateFile(out=None):
 
             try:
                 logger.info(folder_path[:-1])
-                cont = get_upload_progress(str(folder_path).strip(), int(pages))
+                cont = get_upload_progress(
+                    str(folder_path).strip(), int(pages))
             except Exception as e:
                 print(e)
                 time.sleep(5)
             logger.success("Upload progress found")
             print(cont)
-            content = content.split("<!-- PROGRESS START -->")[0] + "<!-- PROGRESS START -->\n" + cont[0] + "\n<!-- PROGRESS END -->" + content.split("<!-- PROGRESS END -->")[-1]
+            content = content.split("<!-- PROGRESS START -->")[0] + "<!-- PROGRESS START -->\n" + \
+                cont[0] + "\n<!-- PROGRESS END -->" + \
+                content.split("<!-- PROGRESS END -->")[-1]
             logger.success("Splicing successful")
         else:
             logger.error("Invalid file path. Aborting")
@@ -367,16 +383,15 @@ def updateFile(out=None):
         print(e)
         time.sleep(10)
 
-
     try:
         with open("tools.dat", "rb") as f:
-            recent_files = pk.load(f)
+            preferences = pk.load(f)
     except:
-        recent_files = []
-    if out not in recent_files:
-        recent_files.append(out)
+        preferences = {"recent_files": []}
+    if out not in preferences['recent_files']:
+        preferences["recent_files"].append(out)
         with open("tools.dat", "wb") as f:
-            pk.dump(recent_files, f)
+            pk.dump(preferences, f)
 
 
 def main():
@@ -410,7 +425,6 @@ def main():
     menu.items.append(test_page)
 
     menu.show()
-
     clr()
 
 
