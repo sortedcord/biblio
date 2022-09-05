@@ -7,6 +7,7 @@ import rich
 from cursesmenu import CursesMenu
 from cursesmenu.items import FunctionItem
 import random
+from utils import clearconsole
 
 from utils import shortenlink
 logger = loguru.logger
@@ -20,13 +21,12 @@ def dinput(message, default):
 
 
 def generic_meta(progress=None):
+    clearconsole()
     post_id = random.randint(1000, 9999)
-    try:
-        title = ""
-        while title == "":
-            title = dinput("Enter title of book", "BOOKTITLE")
-    except Exception as E:
-        print(E)
+
+    title = ""
+    while title == "":
+        title = dinput("Enter title of book: ", "BOOKTITLE")
 
     # generate date in the format as "2022-08-25 16:48:23 +0530"
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S +0530")
@@ -34,31 +34,35 @@ def generic_meta(progress=None):
     author = dinput("Enter author name: ", "Anonymous")
     layout = "post"
     # set permalink as /2022/8/25/title/
-    try:
-        permalink = f"/{current_time[:4]}/{current_time[5:7]}/{current_time[8:10]}/{title}/"
-    except Exception as E:
-        print(E)
-        time.sleep(5)
+    permalink = f"/{current_time[:4]}/{current_time[5:7]}/{current_time[8:10]}/{title}/"
 
     image = dinput("Enter image URL: ", "https://i.imgur.com/0Z0Z0Z0.png")
 
     #######
     # tags
     try:
+        logger.debug("Loading tag file")
         with open("tools.dat", "rb") as f:
-            preferences = pk.load(f)
+            logger.info("Found storage file")
+            preferences = pk.load(f).copy()
+            logger.info("Loaded preferences dictionary")
             stored_tags = preferences["tags"]
     except FileNotFoundError:
+        logger.warning("No storage file found")
+        logger.info("Creating new storage file")
         with open("tools.dat", "wb") as f:
             preferences = {"recent_files": [],
                            "tags": [],
                            "categories": []}
             stored_tags = preferences["tags"]
             pk.dump(preferences, f)
+            logger.info("Dumped empy preferences")
     except KeyError:
+        logger.warning("No tags found in storage file")
         preferences["tags"] = []
         with open("tools.dat", "wb") as f:
             pk.dump(preferences, f)
+            logger.info("Dumped preferences with empty tags")
         stored_tags = preferences["tags"]
 
     # generate tags
@@ -108,9 +112,9 @@ def generic_meta(progress=None):
 
     # generate categories
     logger.debug("Generating categories")
-    logger.debug("Inserted new tag option")
+    logger.debug("Inserted new category option")
     l = stored_categories
-    l.insert(0, "Add a new tag")
+    l.insert(0, "Add a new category")
     logger.debug("Inserting Quit Option")
     l.append("Done")
     logger.debug("Inserted meta options")
@@ -161,16 +165,17 @@ tags:
     """
 
     # Update tags in tools.dat
-    preferences["tags"] = post_tags
-    preferences["categories"] = post_categories
+    logger.info("Updating tags in tools.dat")
+    preferences["tags"].extend(post_tags)
+    preferences["categories"].extend(post_categories)
     with open("tools.dat", "wb") as f:
         pk.dump(preferences, f)
+        logger.success("Updated tags in tools.dat")
 
     return file_str, title, current_time
 
 
 def save(title, current_time, file_str):
-    print(file_str)
     # generate string in the format 2022-08-09-{title}.md
     _ = title.replace(" ", "-")
     file_name = f"{current_time[:10]}-{_}.md"
@@ -200,9 +205,11 @@ def standalone():
         print("File already shortened")
         shortened_link = ids[id]
     else:
-        s = shortenlink(direct_link)
+        shortened_link = shortenlink(direct_link)
 
+    logger.debug("Updating file string")
     file_str = "---\n" + file_str + f"[Download]({shortened_link})\n"
+    logger.debug("Savind file")
     save(title, current_time, file_str)
 
 

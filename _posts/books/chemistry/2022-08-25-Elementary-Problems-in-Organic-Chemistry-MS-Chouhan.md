@@ -34,7 +34,7 @@ tags:
 ---
 
 <!-- PROGRESS START -->
-Current Progress: [ ██████████████████████████████·········· ] 77%:Completed Uploading 418/536 pages
+Current Progress: [ ██████████████████████████████████······ ] 85%:Completed Uploading 456/536 pages
 <!-- PROGRESS END -->
 
 <!-- TABLE START -->
@@ -46,6 +46,7 @@ Current Progress: [ ████████████████████
 | 02    | Hydrocarbons                            | [Download Link](https://shorturl.at/bGJP7) | 3.5 MB    | August 26, 2022 at 09:01:10 AM    |
 | 03    | Haloalkanes and Haloarenes              | [Download Link](https://shorturl.at/gIR05) | 14.5 MB   | August 27, 2022 at 03:28:00 PM    |
 | 04    | Alcohols, Phenols and Ethers            | [Download Link](https://shorturl.at/ozARS) | 3.5 MB    | August 28, 2022 at 12:07:47 PM    |
-| 05    | Aldehydes, Ketones and Carboxylic Acids | [Download Link](https://shorturl.at/ABFO3) | 1.1 MB    | September 04, 2022 at 03:08:16 PM |
+| 05    | Aldehydes, Ketones and Carboxylic Acids | [Download Link](https://shorturl.at/ABFO3) | 3.0 MB    | September 04, 2022 at 03:08:16 PM |
+| 06    | Organic Compounds Containing Nitrogen   | [Download Link](https://shorturl.at/DKZ05) | 790.5 KB  | September 05, 2022 at 04:10:16 AM |
 
 <!-- TABLE END -->

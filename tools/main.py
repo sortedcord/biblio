@@ -6,7 +6,7 @@ from rich.progress import track
 from utils import createBrowser, shortenlink, get_gdrive_service
 from utils import convert_bytes, convert_date
 from file_gen import genfile
-# from utils import clearconsole as clr
+from utils import clearconsole as clr
 from loguru import logger
 from rich.progress import Progress
 import codecs
@@ -27,15 +27,18 @@ try:
 except Exception as E:
     logger.error("Failed to create GDrive API Service Object")
     if "Token has expired" in str(E):
-        logger.error("Token has expired, please delete token.pickle and try again")
+        clr()
+        logger.error(
+            "Token has expired. Creating new token. Please run the script again")
+        os.remove("token.pickle")
+        logger.info("token.pickle file deleted")
+        logger.warning("Run the program again")
+        time.sleep(3)
+        clr()
     quit()
 else:
     logger.success("GDrive API Service Object Created")
 browser = False
-
-
-def clr():
-    pass
 
 
 def fetch_items(folder_id):
@@ -244,7 +247,7 @@ def generate_table(folder_id=None, out=None, subdirs=None):
         if choice == 'y':
             with codecs.open('table.md', 'w', 'utf-8') as file:
                 file.write(table)
-                print("Table saved to table.md")
+                logger.info("Table saved to table.md")
 
     if out == "return":
         return table
@@ -261,13 +264,12 @@ def updateFile(out=None):
             recent_files = preferences['recent_files']
             logger.debug("recent files loaded")
     l = ["Update new file"] + list(recent_files)
-    print(l)
     try:
         out = CursesMenu.get_selection(l)
     except Exception as E:
         print(E)
         time.sleep(5)
-        
+
     if out != 0:
         out = recent_files[out-1]
 
@@ -304,14 +306,12 @@ def updateFile(out=None):
     with codecs.open(out, 'r', "utf-8") as file:
         content = file.read()
         try:
-            print(content.split("<!-- TABLE START -->")
-                  [0],  content.split("<!-- TABLE END -->")[1])
             content = content.split("<!-- TABLE START -->")[0] + "<!-- TABLE START -->\n\n" \
                 + table + "\n\n<!-- TABLE END -->" + \
                 content.split("<!-- TABLE END -->")[1]
         except Exception as e:
             logger.error("Could not find table start and end markers")
-            print(e)
+            logger.error(e)
             time.sleep(5)
             quit()
         else:
@@ -365,10 +365,9 @@ def updateFile(out=None):
                 cont = get_upload_progress(
                     str(folder_path).strip(), int(pages))
             except Exception as e:
-                print(e)
+                logger.error(e)
                 time.sleep(5)
             logger.success("Upload progress found")
-            print(cont)
             content = content.split("<!-- PROGRESS START -->")[0] + "<!-- PROGRESS START -->\n" + \
                 cont[0] + "\n<!-- PROGRESS END -->" + \
                 content.split("<!-- PROGRESS END -->")[-1]
@@ -376,13 +375,12 @@ def updateFile(out=None):
         else:
             logger.error("Invalid file path. Aborting")
 
-    print(out)
     try:
         with codecs.open(out, 'w', "utf-8") as file:
             file.write(content)
             logger.success(f"File {out} updated")
     except Exception as e:
-        print(e)
+        logger.error(e)
         time.sleep(10)
 
     try:
@@ -422,15 +420,14 @@ def main():
     update_item = FunctionItem("Update File", updateFile)
     menu.items.append(update_item)
 
-    test_page = FunctionItem("Check Page Progress Function", get_upload_progress, [
-                             "G:/My Drive/Material/Books/MTG Foundation Class 6th Science", 886])
-    menu.items.append(test_page)
-
     genfile_item = FunctionItem("Generate File", genfile)
     menu.items.append(genfile_item)
 
     read_id_item = FunctionItem("Read ids.dat", show_ids)
     menu.items.append(read_id_item)
+
+    shorten_gdrive_item = FunctionItem("Shorten GDrive Link", shorten_gdrive)
+    menu.items.append(shorten_gdrive_item)
 
     menu.show()
     clr()
@@ -442,8 +439,36 @@ def show_ids():
 
     for key, value in ids.items():
         print(f"{key} : {value}")
-    
+
     _ = input("Press any key to continue")
+
+
+def shorten_gdrive(id=None):
+    if id is None:
+        clr()
+        id = input("Enter id: ")
+    # generate google direct download link
+    with open("ids.dat", 'rb') as file:
+        logger.debug("Loading ids.dat")
+        ids = pk.load(file)
+    if id in ids:
+        shorten = ids[id]
+        logger.success("Shortened link found in ids.dat")
+        clr()
+        logger.info("File shortened to : " + shorten)
+    else:
+        logger.debug("Shortened link not found in ids.dat")
+        logger.info("Generating shortened link")
+        shorten = shortenlink(
+            f"https://drive.google.com/uc?export=download&id={id}")
+        clr()
+        logger.info("File shortened to : " + "https://" + shorten)
+        ids[id] = "https://" + shorten
+
+        with open("ids.dat", 'wb') as file:
+            pk.dump(ids, file)
+    
+    time.sleep(3)
 
 
 if __name__ == "__main__":

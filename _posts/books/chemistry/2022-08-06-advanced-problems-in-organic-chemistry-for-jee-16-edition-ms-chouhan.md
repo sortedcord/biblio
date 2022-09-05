@@ -18,4 +18,4 @@ tags:
 
 Advanced problems in Organic Chemistry for JEE (with solution) 15th edition. It is a matter of great pleasure for me to present the fourteenth edition of ?advance problems in Organic Chemistry for JEE? before JEE aspirants. During My teaching experience, I felt that facts may be made more and more clear to the students through problematic approach. Although an ocean of material in Organic Chemistry is available with the students, yet the approach to design the problems has been changed in recent years and if one tries to swim in this ocean, it will be a very difficult task. Advanced problems in Organic Chemistry for JEE (with solution) 14th edition.
 
-27[Download PDF](https://drive.google.com/uc?export=download&id=13Rz2sFemaLXPExWspGYvvxpnXUsLX1LR)
+[Download PDF](https://drive.google.com/uc?export=download&id=13Rz2sFemaLXPExWspGYvvxpnXUsLX1LR)
