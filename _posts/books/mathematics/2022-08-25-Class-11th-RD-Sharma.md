@@ -29,7 +29,7 @@ This textbook of Mathematics has been written by RD Sharma is the best selection
 - Help the students to learn more about linear equations and quadratic equations.
 
 <!-- PROGRESS START -->
-Current Progress: [ ███████████████████████████············· ] 69%:Completed Uploading 832/1200 pages
+Current Progress: [ ████████████████████████████············ ] 72%:Completed Uploading 864/1200 pages
 <!-- PROGRESS END -->
 
 <!-- TABLE START -->
@@ -59,6 +59,6 @@ Current Progress: [ ████████████████████
 | 20    | Geometric Progressions                         | [Download Link](https://shorturl.at/jmv68) | 25.5 MB   | August 27, 2022 at 02:10:45 PM |
 | 21    | Some Special Series                            | [Download Link](https://shorturl.at/bEFU4) | 7.7 MB    | August 28, 2022 at 05:17:39 AM |
 | 22    | Brief Review of Cartesian System               | [Download Link](https://shorturl.at/LMZ49) | 11.4 MB   | August 28, 2022 at 05:19:27 AM |
-| 23    | The Straight Lines                             | [Download Link](https://shorturl.at/hwCDM) | 10.6 MB   | August 28, 2022 at 05:47:50 AM |
+| 23    | The Straight Lines                             | [Download Link](https://shorturl.at/hwCDM) | 22.5 MB   | August 28, 2022 at 05:47:50 AM |
 
 <!-- TABLE END -->

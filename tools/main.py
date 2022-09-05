@@ -462,8 +462,8 @@ def shorten_gdrive(id=None):
         shorten = shortenlink(
             f"https://drive.google.com/uc?export=download&id={id}")
         clr()
-        logger.info("File shortened to : " + "https://" + shorten)
-        ids[id] = "https://" + shorten
+        logger.info("File shortened to : " + shorten)
+        ids[id] = shorten
 
         with open("ids.dat", 'wb') as file:
             pk.dump(ids, file)
